@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Правила оформления HTML кода</h1>
+  <ol>
+    <li>Синтаксис
+      <ol>
+        <li>Два пробела в качкстве отступа</li>
+        <li>Теги и атрибуты записываются в нижнем регистре</li>
+        <li>Отдельные логические блоки отбиваются пустой строкой</li>
+        <li>Используйте только двойные кавычки</li>
+        <li>Не ставим пробелов перед и после символа =</li>
+        <li>Между атрибутами один пробел</li>
+        <li>Одиночные теги без закрывающего слэша</li>
+      </ol>
+    </li>
+    <li>Валидность</li>
+    <li>!DOCTYPE</li>
+    <li>Кодировка</li>
+    <li>Подключение стилей</li>
+    <li>Подключение скриптов</li>
+    <li>Атрибуты и их порядок</li>
+    <li>Логические атрибуты</li>
+    <li>Подписи input</li>
+    <li>Атрибуты языка</li>
+  </ol>
+
+  <h2>1. Синтаксис</h2>
+  <h3>1.1 Два пробела в качестве отступа</h3>
+  <p>Отступы позволяют <b>визуально оценить структуру документа</b> и быстро переключаться между его фрагментами. Размер отступа настраивается в редакторе. Также во многих редакторах можно включить отображение пробельных символов и преобразовать отступы.</p>
+  <p>Хорошо</p>
+  <pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang="ru"&gt;
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;Ваша страница&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;Страница&lt;/h1&gt;
+      &lt;p&gt;Текст&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+  </pre>
+  <p>Плохо</p>
+  <pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang='ru'&gt;
+  &lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+      &lt;title&gt;Ваша страница&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;h1&gt;Страница&lt;/h1&gt;
+  &lt;p&gt;Текст&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html>
+  </pre>
+
+<h3>1.2 Теги и атрибуты записываются в нижнем регистре</h3>
+<p>Символы нижнего регистра <i>не привлекают к себе большого внимания</i>, и вам легче будет найти нужный.</p>
+<p>Хорошо</p>
+<pre>
+&lt;div class="user"&gt;
+  &lt;img src="./i/userpic.png" title="Иванов Иван"&gt;
+  &lt;a href="/profile/"&gt;Перейти в профиль&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+<p>Плохо</p>
+<pre>
+&lt;DIV class="user"&gt;
+  &lt;IMG src="./i/userpic.png" title="Иванов Иван"&gt;
+  &lt;A href="/profile/"&gt;Перейти в профиль&lt;/a&gt;
+&lt;/DIV&gt;
+</pre>
+
+<h3>1.3 Отдельные логические блоки отбиваются пустой строкой</h3>
+<p>Это <u>облегчает работу с кодом</u> и <s>визуально создает структуру</s> документа.</p>
+<p>Хорошо</p>
+<pre>
+&lt;h1&gt;Заголовок первого уровня&lt;/h1&gt;
+&lt;p&gt;Первый параграф&lt;/p&gt;
+
+&lt;h2&gt;Заголовок второго уровня&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Первый пункт&lt;/li&gt;
+  &lt;li&gt;Второй пункт&lt;/li&gt;
+  &lt;li&gt;Третий пункт&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Заголовок третьего уровня&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;figcaption&gt;Блок с картинкой&lt;/figcaption&gt;
+  &lt;img src="../img/image.jpg"&gt;
+&lt;/figure&gt;
+</pre>
+<p>Плохо</p>
+<pre>
+&lt;h1&gt;Заголовок первого уровня&lt;/h1&gt;
+&lt;p&gt;Первый параграф&lt;/p&gt;
+&lt;h2&gt;Заголовок второго уровня&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Первый пункт&lt;/li&gt;
+  &lt;li&gt;Второй пункт&lt;/li&gt;
+  &lt;li&gt;Третий пункт&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Заголовок третьего уровня&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;figcaption&gt;Блок с картинкой&lt;/figcaption&gt;
+  &lt;img src="../img/image.jpg"&gt;
+&lt;/figure&gt;
+</pre>
+
+<h3>1.4 Используйте только двойные кавычки</h3>
+<p>При написании значений атрибутов используйте только двойные кавычки.</p>
+<p>Хорошо</p>
+<pre>
+&lt;div class="first"&gt;
+  &lt;img src="first-img.jpg" alt="Первая картинка"&gt;
+&lt;/div&gt;  
+</pre>
+<p>Плохо</p>
+<pre>
+&lt;div class='first'&gt;
+  &lt;img src='first-img.jpg' alt='Первая картинка'&gt;
+&lt;/div&gt;  
+</pre>
+
+<h3>1.5 Не ставим пробелов перед и после символа =</h3>
+<p>Поскольку правая часть непосредственно относится к левой, то атрибут и его значение должны быть написаны без пробелов.</p>
+<p>Хорошо</p>
+&lt;p id="first" class="post"&gt;Это хороший пример&lt;/p&gt;
+<p>Плохо</p>
+&lt;p id ="first" class= "post"&gt;Это плохой пример&lt;/p&gt;
+
+<h3>1.6 Между атрибутами один пробел</h3>
+<p>Не используем переносов строк между атрибутами, только один пробел. Перенос строк принят в css-документах, но не в html-разметке. Пишите все атрибуты элемента в строку.</p>
+<p>Хорошо</p>
+<pre>
+&lt;figure class="postItem"&gt;
+  &lt;img src="logo.jpg" alt="Логотип"&gt;
+  &lt;figcaption&gt;Логотип компании&lt;/figcaption&gt;
+&lt;/figure&gt;
+</pre>
+<p>Плохо</p>
+<pre>
+&lt;figure class="postItem"&gt;
+  &lt;img
+  src="logo.jpg"
+  alt="Логотип"&gt;
+  &lt;figcaption&gt;Логотип компании&lt;/figcaption&gt;
+&lt;/figure&gt;
+</pre>
+
+<h3>1.7 Одиночные теги без закрывающего слэша</h3>
+<p>Не используйте закрывающий слэш у одиночных тегов (&lt;img&gt;, &lt;br&gt; и другие). Этот элемент является пережитком прошлого, когда HTML был более строгим, а браузеры не умели распознавать и исправлять ошибки.</p>
+<p>Хорошо</p>
+<pre>
+&lt;img src="logo.jpg" alt="Логотип"&gt;
+&lt;br&gt;
+</pre>
+<p>Плохо</p>
+<pre>
+&lt;img src="logo.jpg" alt="Логотип" /&gt;
+&lt;br /&gt;
+</pre>
+
+<h2>2. Валидность</h2>
+<p>Html-документ должен проходить проверку на валидность. Для проверки используйте валидатор.</p>
+
+<h2>3. !DOCTYPE</h2>
+<p>Первой строчкой в HTML-документе должен идти актуальный doctype. Это необходимо чтобы браузер верно отображал страницу. Это обеспечит единообразное отображение во всех современных браузерах.</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;…&lt;/head&gt;
+  &lt;body&gt;…&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h2>4. Кодировка</h2>
+<p>Кодировка символов в html-документе всегда должна быть указана явно. Это обеспечит верное отображение текста. Кодировка utf-8 подходит всегда, за редким исключением.</p>
+<pre>
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;Заголовок&lt;/title&gt;
+&lt;/head&gt;
+</pre>
+
+<h2>5. Подключение стилей</h2>
+<p>Файлы со стилями подключаются внутри тега &lt;head&gt; при помощи &lt;link&gt;. Атрибут type для тега &lt;link&gt; указывать не нужно, так как значение text/css устанавливается по умолчанию.</p>
+<p>Хорошо: стилевой файл подключён в секции head</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;…&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Плохо: стилевой файл подключён в секции body</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;…&lt;/head&gt;
+  &lt;body&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h2>6. Подключение скриптов</h2>
+<p>Скрипты при загрузке блокируют отображение содержимого страницы. По этой причине следует подключать их в самом конце html-документа.</p>
+<p>При подключении скриптов в теге &lt;script&gt; атрибут type указывать не нужно, так как значение text/javascript устанавливается по умолчанию.</p>
+<p>Хорошо: скрипт подключается перед &lt;/body&gt;</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;…&lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Содержимое страницы --&gt;
+    &lt;script src="app.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Плохо: скрипт подключается в секции &lt;head&gt;</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;
+    &lt;script src="app.js"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;…&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h2>7. Атрибуты и их порядок</h2>
+<p>У HTML-элементов атрибут class пишется первым. Единообразное написание помогает легче считывать код и по классам быстрее разбираться в назначении блоков.</p>
+<p>Остальные атрибуты могут быть расставлены в любом порядке, но тоже единообразно для схожих элементов.</p>
+<pre>
+&lt;a class="element element-big" id="element" href="/" data-name="element"&gt;Ссылка&lt;/a&gt;
+
+&lt;input class="form-control" type="text" name="test"&gt;
+
+&lt;img class="picture" src="img.jpg" alt="Картинка"&gt;
+</pre>
+
+<h2>8. Логические атрибуты</h2>
+<p>Для логических атрибутов (например, checked, disabled, required) значение не указывается, а сами атрибуты указываются последними и в единообразной последовательности во всём документе.
+</p>
+<pre>
+&lt;!-- checked="checked" необязательно --&gt;
+&lt;input type="checkbox" required checked&gt;
+
+&lt;input type="text" disabled&gt;
+
+&lt;select&gt;
+  &lt;option value="1" selected&gt;1&lt;/option&gt;
+&lt;/select&gt;
+</pre>
+
+<h2>9. Подписи input</h2>
+<p>Для улучшения опыта пользователя, при нажатии на подпись поля, само поле должно активироваться. Для этого поле формы связывается с описанием при помощи идентификатора и атрибута for тега &lt;label&gt;.</p>
+<p>Хорошо: элемент формы radio связан с подписью через id и for</p>
+<pre>
+&lt;input type="radio" id="choose"&gt;
+&lt;label for="choose"&gt;Радио кнопка&lt;/label&gt;
+</pre>
+<p>Хорошо: элемент формы radio и подпись обёрнуты в label</p>
+<pre>
+&lt;label&gt;
+  &lt;input type="radio"&gt; Радио кнопка
+&lt;/label&gt;
+</pre>
+<p>Плохо: подпись не связана с элементом формы</p>
+&lt;input type="radio" id="choose"&gt; Радио кнопка
+
+<h2>10. Атрибут языка</h2>
+<p>Для элемента &lt;html&gt; в атрибуте lang должен указываться верный язык документа. Это помогает системам перевода определить, какие использовать языковые правила.
+</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+  &lt;head&gt;…&lt;/head&gt;
+  &lt;body&gt;…&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+
+</body>
+</html>
