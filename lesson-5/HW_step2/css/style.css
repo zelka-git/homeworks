@@ -1,11 +1,10 @@
 body{
 	max-width: 1000px;
+	margin-right: 240px;
 }
 .content{
-	/*background: url("http://www.maya18.estranky.cz/img/mid/7/wn_200210212034565107-1-.jpg") no-repeat right;*/
-	font-size: 2em;
 	position: fixed;
-	left: 1040px;
+	right: 0;
 	top: 15px;
 }
 .big{
