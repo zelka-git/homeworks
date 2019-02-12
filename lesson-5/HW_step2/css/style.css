@@ -1,0 +1,58 @@
+body{
+	max-width: 1000px;
+}
+.content{
+	/*background: url("http://www.maya18.estranky.cz/img/mid/7/wn_200210212034565107-1-.jpg") no-repeat right;*/
+	font-size: 2em;
+	position: fixed;
+	left: 1040px;
+	top: 15px;
+}
+.big{
+	font-size: 1.5em;
+  font-weight: 800;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+.fatty{
+	font-weight: bold;
+}
+.italics{
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+}
+.strikeout{
+	text-decoration: line-through;
+}
+.frame{
+	margin-bottom: 20px;
+	padding: 20px 20px;
+	border: 2px solid black;
+}
+
+.entry{
+	background-color: yellow;
+}
+.chapter2{
+	color: green;
+}
+.chapter3{
+	color: blue;
+}
+.chapter4{
+	color: brown;
+}
+.chapter5{
+	color: orange;
+}
+.text-chapter4{
+	color: green;
+}
