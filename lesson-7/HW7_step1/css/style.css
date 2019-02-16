@@ -1,0 +1,70 @@
+.container{
+	width: 1920px;
+	height: 723px;
+	background-color: #f9f9f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+h1{
+	margin: 0;
+	margin-bottom: 125px;
+}
+.img{
+	width: 263px;
+	height: 210px;
+}
+.img1{
+	background: url("https://wmpics.pics/di-5BNV.png") center no-repeat;
+}
+.img2{
+	background: url("https://wmpics.pics/di-GCKH.png") center no-repeat;
+}
+.img3{
+	background: url("https://wmpics.pics/di-8MRO.png") center no-repeat;
+}
+.img4{
+	background: url("https://wmpics.pics/di-8OW9.png") center no-repeat;
+}
+
+
+.cost{
+	font-size: 18px;
+	font-weight: 700;
+}
+button{
+	width: 200px;
+	height: 55px;
+	border: 1px solid #23bac1;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #23bac1;
+	background: white;
+}
+.card{
+	width: 263px;
+	height: 366px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.inner{
+	width: 1139px;
+	height: 366px;
+	display: flex;
+	justify-content: space-between;
+}
+p{
+	margin: 0;
+}
+body{
+		height: 100vh; /* высота секции равна высоте области просмотра */
+/*position: relative;;*/
+ 	display: flex;
+	justify-content: center;
+	align-items: center;  
+}

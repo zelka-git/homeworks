@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 1366px;
+	/*width: 1140px;*/
+	padding-left: 113px;
+	padding-right: 113px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.img_head{
+	width: 404px;
+	height: 630px;
+}
+.text{
+	width: 527px;
+	height: 435px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	align-self: center;
+
+}
+h1{
+	margin: 0;
+	font-size: 48px;
+	font-weight: 700;
+}
+h2{
+	font-size: 30px;
+	font-weight: 700;
+	color: #333333;
+	text-align: center;
+}
+h3{
+	margin-top: 0;
+	font-size: 30px;
+}
+.cost{
+	color: #313131;
+	font-size: 48px;
+}
+
+.btn{
+		width: 502px;
+		height: 67px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+}
+.buy{
+	width: 175px;
+	height: 67px;
+	border-radius: 5px;
+	background-color: #f05a22;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 18px 46px;
+}
+.more{
+	width: 287px;
+	height: 67px;
+	border-radius: 5px;
+	border: 2px solid #f05a22;
+	color: #f05a22;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 18px 25px;
+	background-color: white;
+}
+.delivery-pay{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.icon-basket{
+	background: url("<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>");
+}
+header{
+	margin-top: 75px;
+	margin-bottom: 90px;
+	width: 1005px;
+	min-height: 630px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.title{
+text-align: center;
+
+}
+.photo{
+width: 261px;
+height: 261px;
+
+}
+.photos-buyers{
+	min-height: 562px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
+p{
+	margin: 0;
+}
+section{
+	min-height: 408px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid #ffffff;
+	background-color: rgba(242, 242, 242, 0.5);;
+}
+footer{
+	min-height: 659px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
