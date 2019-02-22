@@ -1,0 +1,70 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.boxing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box-1 {
+  background-color: #33aaff;
+}
+
+.box-2 {
+  background-color: #33aaff;
+}
+
+.box-3 {
+  background-color: #001e33;
+}
+
+.box-4 {
+  background-color: #001e33;
+}
+
+.box-5 {
+  background-color: white;
+}
+
+.box-6 {
+  background-color: tint(#33aaff, 100%);
+}
+
+.box-7 {
+  background-color: #ff3344;
+}
+
+.box-8 {
+  background-color: #ff3344;
+}
+
+.box-9 {
+  background-color: #cceaff;
+}
+
+.box-10 {
+  background-color: #cceaff;
+}
+
+.box-11 {
+  background-color: #999999;
+}
+
+.box-12 {
+  background-color: #999999;
+}
+
+.box-13 {
+  background-color: #66a2cc;
+}
+
+.box-14 {
+  background-color: #66a2cc;
+}
+/*# sourceMappingURL=style.css.map */

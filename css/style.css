@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.hero{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.lesson{
+	border: 5px groove green;
+	border-radius: 10px;
+	padding: 10px 30px;
+	margin-bottom: 15px;
+}
+.lesson-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 30px;
+}
+.home-works{
+	text-align: center;
+	background: #FA8072;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #E6E6FA;
+}
+.nav a{
+	font-size: 22px;
+	color: #0000CD;
+	padding-bottom: 3px;
+	position:relative;
+}
+.lesson-name{
+	font-size: 30px;
+
+}
+
+.description{
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+.upercase{
+	text-transform: uppercase;
+}
+.date{
+	font-size: 20px;
+	font-weight: 400;
+}
+.rezult{
+	font-size: 40px;
+	font-weight: 600;
+	
+}
+.nav{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
