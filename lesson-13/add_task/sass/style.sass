@@ -2,22 +2,34 @@ body
   font-family: sans-serif
 .card
   max-width: 1010px
-  min-height: 503px
+  padding-top: 64px
+  padding-bottom: 64px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 86px
+  // min-height: 503px
   border: 1px solid #d7d7d7
   background-color: #ffffff
   display: flex
+  flex-wrap: wrap
   justify-content: space-around
+  // justify-content: space-around
   align-items: center
-
-  &__img img
-    max-width: 100%
+  
+   
+  &__img 
+    max-width: 376px 
+    img
+      max-width: 100%
 
   &__info 
     max-width: 394px
-    min-height: 328px
+    height: 328px
     display: flex
     flex-direction: column
     justify-content: space-between
+    
+   
     &__price
       display: flex
       flex-direction: column

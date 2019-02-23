@@ -4,17 +4,27 @@ body {
 
 .card {
   max-width: 1010px;
-  min-height: 503px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 86px;
   border: 1px solid #d7d7d7;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.card__img {
+  max-width: 376px;
 }
 
 .card__img img {
@@ -23,7 +33,7 @@ body {
 
 .card__info {
   max-width: 394px;
-  min-height: 328px;
+  height: 328px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
