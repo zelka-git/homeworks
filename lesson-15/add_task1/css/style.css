@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Museo Sans Light';
+  font-family: 'Museo Sans Cyrl 300';
   src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot");
-  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
-  font-weight: normal;
+  src: local("../fonts/MuseoSansCyrl/MuseoSansCyrl-300"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo Sans Bold';
+  font-family: 'Museo Sans Cyrl 700';
   src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
-  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  src: local("../fonts/MuseoSansCyrl/MuseoSansCyrl-700"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'Museo Sans Light', sans-serif;
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
   font-weight: 300;
 }
 
@@ -90,7 +90,7 @@ img {
   width: 170px;
   height: 49px;
   padding: 15px 26px;
-  font-family: 'Museo Sans Bold', sans-serif;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
   font-weight: 700;
 }
 
@@ -100,7 +100,7 @@ img {
   font-size: 20px;
   text-decoration: none;
   margin-top: 7px;
-  font-family: 'Museo Sans Bold', sans-serif;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@ img {
   line-height: 55px;
   margin-bottom: 36px;
   margin-top: 26px;
-  font-family: 'Museo Sans Bold', sans-serif;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
   font-weight: 700;
 }
 
@@ -157,7 +157,7 @@ img {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 67px;
-  font-family: 'Museo Sans Bold', sans-serif;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
   font-weight: 700;
 }
 
