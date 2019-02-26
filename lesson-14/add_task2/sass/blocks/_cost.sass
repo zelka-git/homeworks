@@ -20,7 +20,7 @@
     justify-content: space-between
     flex-wrap: wrap
     &__item
-      height: 660px
+      // height: 660px
       position: relative
       margin-bottom: 30px
       // display: flex
@@ -45,6 +45,8 @@
       &-image 
         max-height: 200px
         margin-bottom: 37px
+        img
+          max-width: 100%
       &-pay 
         font-size: 19px
         font-weight: 700
@@ -58,6 +60,7 @@
         font-weight: 400
         line-height: 30px
         list-style: none
+        margin-bottom: 132px
       &-btn 
         width: 209px
         height: 65px
@@ -76,3 +79,14 @@
   background-color: #ffb504
   background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%)
   color: $color-text
+
+@media (max-width: 800px)
+  .cost
+    &-blocks
+      &__item
+        margin-right: auto
+        margin-left: auto
+
+
+      
+
