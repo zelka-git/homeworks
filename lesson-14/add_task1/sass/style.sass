@@ -46,11 +46,39 @@ body
   line-height: 25px
   text-transform: uppercase
   border: 2px solid #66cc66
+
+  
+  
   &-primary
     color: #66cc66
     background-color: #fff
+  &-primary:hover
+    background-color: #FA8072  
   &-success
+    overflow: hidden
+    backface-visibility: hidden
     background-color: #66cc66
+    position: relative
+    color: #66cc66
+    transition: color 300ms
+    transform: translateZ(0)
+  &-success:before
+    content: ""
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: rgba(255, 255, 255, 0.98)
+    border-radius: 100%
+    transform: scale(2)
+    transition-property: transform
+    transition: 300ms ease-out
+    
+  &-success:hover:before
+    transform: scale(0)
+  &-success:hover
     color: #fff
     
 

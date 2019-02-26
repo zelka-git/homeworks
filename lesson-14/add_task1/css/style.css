@@ -75,8 +75,49 @@ body {
   background-color: #fff;
 }
 
+.btn-primary:hover {
+  background-color: #FA8072;
+}
+
 .btn-success {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   background-color: #66cc66;
+  position: relative;
+  color: #66cc66;
+  -webkit-transition: color 300ms;
+  transition: color 300ms;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.btn-success:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
+
+.btn-success:hover:before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.btn-success:hover {
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
