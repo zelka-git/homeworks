@@ -20,17 +20,20 @@
     justify-content: space-between
     flex-wrap: wrap
     &__item
-      display: flex
-      flex-direction: column
-      align-items: center 
-      justify-content: space-between
+      height: 660px
+      position: relative
+      margin-bottom: 30px
+      // display: flex
+      // flex-direction: column
+      // align-items: center 
+      // justify-content: space-between
 
       background-color: $color-cost-item
       color: $color-cost-item-text
-      padding-top: 50px
+      // padding-top: 50px
       padding-left: 50px
       padding-right: 50px
-      padding-bottom: 45px
+      // padding-bottom: 45px
       // max-width: 400px
       // max-height: 660px
       &-name 
@@ -38,6 +41,7 @@
         font-weight: 700
         line-height: 20px
         padding-bottom: 33px
+        padding-top: 50px
       &-image 
         max-height: 200px
         margin-bottom: 37px
@@ -48,7 +52,7 @@
         &__big
           font-size: 30px
       &-list 
-        margin-top: 32px
+        margin-top: 28px
         padding: 0
         font-size: 18px
         font-weight: 400
@@ -60,6 +64,10 @@
         font-size: 18px
         font-weight: 400
         text-transform: uppercase
+        position: absolute
+        bottom: 0
+        left: 25%
+        bottom: 40px
 
 .btn
   box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
