@@ -150,7 +150,7 @@ img {
 }
 
 .hero-list__image {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   border: 2px solid #ffd200;
   display: -webkit-box;

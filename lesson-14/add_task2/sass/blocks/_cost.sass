@@ -1,0 +1,70 @@
+@import '../color'
+
+.cost 
+  background-color: $color-fon
+  padding-top: 90px
+  padding-bottom: 117px
+  margin-top: 52px
+  text-align: center
+  
+  &-title 
+    font-size: 36px
+    font-weight: 700
+    margin-bottom: 50px
+  &-subtitle 
+    font-size: 18px
+    font-weight: 400
+  &-blocks 
+    margin-top: 90px
+    display: flex 
+    justify-content: space-between
+    flex-wrap: wrap
+    &__item
+      display: flex
+      flex-direction: column
+      align-items: center 
+      justify-content: space-between
+
+      background-color: $color-cost-item
+      color: $color-cost-item-text
+      padding-top: 50px
+      padding-left: 50px
+      padding-right: 50px
+      padding-bottom: 45px
+      // max-width: 400px
+      // max-height: 660px
+      &-name 
+        font-size: 19px
+        font-weight: 700
+        line-height: 20px
+        padding-bottom: 33px
+      &-image 
+        max-height: 200px
+        margin-bottom: 37px
+      &-pay 
+        font-size: 19px
+        font-weight: 700
+        line-height: 20px
+        &__big
+          font-size: 30px
+      &-list 
+        margin-top: 32px
+        padding: 0
+        font-size: 18px
+        font-weight: 400
+        line-height: 30px
+        list-style: none
+      &-btn 
+        width: 209px
+        height: 65px
+        font-size: 18px
+        font-weight: 400
+        text-transform: uppercase
+
+.btn
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
+  border-radius: 8px
+  border: 1px solid #ffba15
+  background-color: #ffb504
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%)
+  color: $color-text

@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  color: #666666;
+}
+
+.container {
+  max-width: 1176px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main-title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.main-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-block {
+  max-width: 276px;
+  margin-bottom: 30px;
+}
+
+.main-block__image {
+  max-width: 100%;
+}
+
+.main-block__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  width: 133px;
+  height: 41px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  border: 2px solid #66cc66;
+}
+
+.btn-primary {
+  color: #66cc66;
+  background-color: #fff;
+}
+
+.btn-success {
+  background-color: #66cc66;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
