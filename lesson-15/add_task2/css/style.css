@@ -1,0 +1,178 @@
+@font-face {
+	font-family: "BebasRegular";
+	src: url("../fonts/BebasRegular/BebasRegular.eot");
+	src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+	url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LatoRegular";
+	src: url("../fonts/LatoRegular/LatoRegular.eot");
+	src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+	url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ProximaNovaRegular";
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "BadScriptRegular";
+	src: url("../fonts/BadScriptRegular/BadScriptRegular.eot");
+	src: url("../fonts/BadScriptRegular/BadScriptRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BadScriptRegular/BadScriptRegular.woff") format("woff"),
+	url("../fonts/BadScriptRegular/BadScriptRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LobsterRegular";
+	src: url("../fonts/LobsterRegular/LobsterRegular.eot");
+	src: url("../fonts/LobsterRegular/LobsterRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/LobsterRegular/LobsterRegular.woff") format("woff"),
+	url("../fonts/LobsterRegular/LobsterRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+	src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+	url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansItalic";
+	src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+	src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+	url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+	src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+	url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansExtraBold";
+	src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+	src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+	url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansExtraBoldItalic";
+	src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+	src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+	url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBoldItalic";
+	src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+	src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+	url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansRegularItalic";
+	src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+	src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+	url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansSemiBold";
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+	src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+	url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansSemiBoldItalic";
+	src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+	src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+	url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.style1{
+	font-family: "OpenSansRegular", sans-serif;
+}
+.style2{
+	font-family: "BebasRegular", sans-serif;
+}
+.style3{
+	font-family: "BadScriptRegular", sans-serif;
+}
+.style4{
+	font-family: "LobsterRegular", sans-serif;
+}
