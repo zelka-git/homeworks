@@ -46,7 +46,9 @@ body {
   line-height: 12px;
   width: 149px;
   height: 25px;
-  padding: 7px 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 9px;
   color: #ffffff;
   letter-spacing: -0.12px;
 }
@@ -58,6 +60,11 @@ body {
   margin-bottom: 12px;
   font-family: 'Arial Bold', sans-serif;
   font-weight: 400;
+}
+
+.card__subtitle:after {
+  content: '*';
+  color: #01b3b3;
 }
 
 .card__subtitle-email {
@@ -100,5 +107,11 @@ body {
   width: 100%;
   height: 33px;
   background-color: #ebf4f4;
+}
+
+input {
+  padding-left: 12px;
+  font-style: italic;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
