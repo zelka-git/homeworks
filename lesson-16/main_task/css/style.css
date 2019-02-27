@@ -59,7 +59,10 @@ img {
 }
 
 .section {
-  padding: 90px 0;
+  padding-top: 47px;
+  padding-bottom: 90px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .section-title {
@@ -75,7 +78,7 @@ img {
 
 .input {
   border: 1px solid #dddddd;
-  padding: 20px 26px;
+  padding: 22px 26px;
   font-size: 15px;
   border-radius: 10px;
 }
@@ -298,7 +301,7 @@ img {
 .offer__title {
   max-width: 360px;
   line-height: 35px;
-  margin-bottom: 24px;
+  margin-bottom: 19px;
 }
 
 .offer__subtitle {
@@ -318,6 +321,38 @@ img {
 .offer__button {
   width: 100%;
   min-height: 70px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+
+.offer__feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 27px;
+}
+
+.offer__feedback-info {
+  width: 225px;
+  margin-bottom: 18px;
+}
+
+.offer__feedback-tell {
+  width: 202px;
+}
+
+.offer__feedback-tell__bold {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 1200px) {
