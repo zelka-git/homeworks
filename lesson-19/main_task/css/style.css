@@ -448,6 +448,7 @@ main {
 .portfolio {
   background: #f5f5f5 url("../img/portfolio/portfolio-pattern.jpg") repeat-y center left;
   background-size: 50%;
+  padding-top: 100px;
 }
 
 .portfolio__title {
