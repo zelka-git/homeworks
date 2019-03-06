@@ -9,45 +9,27 @@ $(Document).ready(function(){
 
  $(window).scroll(function(){
   if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
-    priceCard1.addClass('animate-animateUp animate-rotateRight');
+    priceCard1.addClass('animate-rotateRight');
   }
-  });
-
-  $(window).scroll(function(){
-    if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
-      priceCard2.addClass('animate-animateUp');
+  if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard2.offset().top ) {
+    priceCard2.addClass('animate-animateUp');
   }
-  });
-
-  $(window).scroll(function(){
-    if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
-        priceCard3.addClass('animate-animateUp animate-rotateLeft');
-    }
-  });
-
-  $(window).scroll(function(){
-    if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
+  if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard3.offset().top ) {
+    priceCard3.addClass('animate-rotateLeft');
+  }
+  if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard4.offset().top ) {
       priceCard4.addClass('animate-animateUp animate-rotateRight');
-    }
-    });
-  
-    $(window).scroll(function(){
-      if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
-        priceCard5.addClass('animate-animateUp');
-    }
-    });
-  
-    $(window).scroll(function(){
-      if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard1.offset().top ) {
-          priceCard6.addClass('animate-animateUp animate-rotateLeft');
-      }
-    });
-
-    $(window).scroll(function(){
-      if ( ($(this).scrollTop() + $(this).height() - 50) > step.offset().top ) {
-          step.addClass('animate-changeWidth');
-      }
-    });
+  }
+  if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard5.offset().top ) {
+    priceCard5.addClass('animate-animateUp');
+  }
+  if ( ($(this).scrollTop() + $(this).height() - 200) > priceCard6.offset().top ) {
+    priceCard6.addClass('animate-rotateLeft');
+  }
+  if ( ($(this).scrollTop() + $(this).height() - 50) > step.offset().top ) {
+    step.addClass('animate-changeWidth');
+  }
+  });
 
 
 });

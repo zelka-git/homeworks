@@ -675,63 +675,67 @@ main {
 
 @-webkit-keyframes animateUp {
   from {
-    margin-top: 400px;
+    -webkit-transform: translateY(400px);
+            transform: translateY(400px);
   }
   to {
-    margin-top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes animateUp {
   from {
-    margin-top: 400px;
+    -webkit-transform: translateY(400px);
+            transform: translateY(400px);
   }
   to {
-    margin-top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @-webkit-keyframes rotateRight {
   from {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(90deg) translate(-100px, 400px);
+            transform: rotate(90deg) translate(-100px, 400px);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    -webkit-transform: rotate(0deg) translate(0, 0);
+            transform: rotate(0deg) translate(0, 0);
   }
 }
 
 @keyframes rotateRight {
   from {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(90deg) translate(-100px, 400px);
+            transform: rotate(90deg) translate(-100px, 400px);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    -webkit-transform: rotate(0deg) translate(0, 0);
+            transform: rotate(0deg) translate(0, 0);
   }
 }
 
 @-webkit-keyframes rotateLeft {
   from {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg) translate(100px, 400px);
+            transform: rotate(-90deg) translate(100px, 400px);
   }
   to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg), translate(0, 0);
+            transform: rotate(-360deg), translate(0, 0);
   }
 }
 
 @keyframes rotateLeft {
   from {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg) translate(100px, 400px);
+            transform: rotate(-90deg) translate(100px, 400px);
   }
   to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg), translate(0, 0);
+            transform: rotate(-360deg), translate(0, 0);
   }
 }
 
@@ -785,7 +789,7 @@ main {
 .animate-changeWidth {
   -webkit-animation-name: changeWidth;
           animation-name: changeWidth;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 /*# sourceMappingURL=style.css.map */

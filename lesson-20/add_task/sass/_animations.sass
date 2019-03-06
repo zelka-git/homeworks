@@ -1,31 +1,22 @@
 @keyframes animateUp
   from 
-    margin-top: 400px
-  // 40% 
-  //   margin-top: 120px
+    transform: translateY(400px)
   to 
-    margin-top: 0
+    transform: translateY(0)
+
 
 @keyframes rotateRight
   from
-    transform: rotate(90deg)
-  // 33%
-  //   transform: rotate(180deg)
-  // 66%
-  //   transform: rotate(270deg)
+    transform: rotate(90deg) translate(-100px, 400px)
   to 
-    transform: rotate(360deg)
+    transform: rotate(0deg) translate(0, 0)
 
 
 @keyframes rotateLeft
   from
-    transform: rotate(-90deg)
-  // 33%
-  //   transform: rotate(-180deg)
-  // 66%
-  //   transform: rotate(-270deg)
+    transform: rotate(-90deg) translate(100px, 400px)
   to 
-    transform: rotate(-360deg)
+    transform: rotate(-360deg), translate(0, 0)
 
 @keyframes changeWidth  
   from
@@ -48,5 +39,5 @@
   animation-timing-function: ease
 
 .animate-changeWidth  
-    animation-name: changeWidth 
-    animation-duration: 2s
+  animation-name: changeWidth 
+  animation-duration: 1s
