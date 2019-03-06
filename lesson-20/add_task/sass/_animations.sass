@@ -1,0 +1,52 @@
+@keyframes animateUp
+  from 
+    margin-top: 400px
+  // 40% 
+  //   margin-top: 120px
+  to 
+    margin-top: 0
+
+@keyframes rotateRight
+  from
+    transform: rotate(90deg)
+  // 33%
+  //   transform: rotate(180deg)
+  // 66%
+  //   transform: rotate(270deg)
+  to 
+    transform: rotate(360deg)
+
+
+@keyframes rotateLeft
+  from
+    transform: rotate(-90deg)
+  // 33%
+  //   transform: rotate(-180deg)
+  // 66%
+  //   transform: rotate(-270deg)
+  to 
+    transform: rotate(-360deg)
+
+@keyframes changeWidth  
+  from
+    transform: scaleX(0.1)
+  to 
+    transform: scaleX(1)
+
+.animate-animateUp
+  animation-name: animateUp
+  animation-duration: 1s
+
+.animate-rotateRight
+  animation-name: rotateRight
+  animation-duration: 1s
+  animation-timing-function: ease
+
+.animate-rotateLeft
+  animation-name: rotateLeft
+  animation-duration: 1s
+  animation-timing-function: ease
+
+.animate-changeWidth  
+    animation-name: changeWidth 
+    animation-duration: 2s
