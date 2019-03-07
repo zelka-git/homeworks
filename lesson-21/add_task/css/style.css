@@ -113,6 +113,12 @@ main {
 }
 
 input.invalid {
+  outline: none;
+  border: 1px solid red;
+}
+
+input.invalid:focus {
+  outline: none;
   border: 1px solid red;
 }
 
@@ -750,6 +756,7 @@ input.invalid {
 
 .brif__input:focus {
   outline: none;
+  border: 1px solid #ffa500;
 }
 
 .brif__button {
