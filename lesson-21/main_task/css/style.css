@@ -63,23 +63,25 @@ img {
 }
 
 .section {
-  padding-top: 47px;
-  padding-bottom: 90px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .section-title {
-  font-size: 24px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
   text-align: center;
   max-width: 500px;
+  font-size: 30px;
+  line-height: 45px;
+  max-width: 788px;
 }
 
 .section-subtitle {
   font-size: 16px;
   display: block;
+  font-size: 20px;
+  line-height: 45px;
 }
 
 .input {
@@ -311,6 +313,8 @@ main {
   background-size: contain;
   background-position: center right;
   position: relative;
+  padding-top: 47px;
+  padding-bottom: 80px;
 }
 
 .offer:before {
@@ -333,12 +337,15 @@ main {
   max-width: 360px;
   line-height: 35px;
   margin-bottom: 19px;
+  font-size: 24px;
   text-align: left;
 }
 
 .offer__subtitle {
   max-width: 250px;
   margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .offer__input {
@@ -390,6 +397,8 @@ main {
 .offer__feedback-tell__bold {
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+  color: #333333;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
@@ -457,12 +466,16 @@ main {
 .portfolio {
   background: #f5f5f5 url("../img/portfolio/portfolio-pattern.jpg") repeat-y center left;
   background-size: 50%;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .portfolio__title {
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 94px;
+  font-size: 30px;
+  line-height: 45px;
+  max-width: 788px;
 }
 
 .portfolio__arrows {
@@ -481,18 +494,24 @@ main {
   margin: auto;
 }
 
+.price {
+  padding-top: 104px;
+  padding-bottom: 100px;
+}
+
 .price__title {
   margin: auto;
-  margin-bottom: 58px;
+  margin-bottom: 39px;
+  max-width: 520px;
 }
 
 .price__subtitle {
-  margin-bottom: 59px;
+  margin-bottom: 47px;
   text-align: center;
 }
 
 .price__card {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .card {
@@ -512,11 +531,13 @@ main {
 }
 
 .card__text {
-  padding: 40px;
+  padding: 36px 40px 45px 47px;
 }
 
 .card__title {
+  font-size: 18px;
   margin-top: 0;
+  margin-bottom: 28px;
 }
 
 .card__image {
@@ -549,6 +570,8 @@ main {
   color: #333333;
   font-size: 16px;
   position: relative;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .card__link:hover:after {
@@ -623,18 +646,29 @@ main {
           align-items: center;
   margin: auto;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .step__text {
   font-size: 14px;
+  line-height: 20px;
   max-width: 160px;
   margin: auto;
 }
 
+.steps {
+  padding-top: 24px;
+  padding-bottom: 90px;
+}
+
 .steps__title {
+  font-size: 30px;
+  line-height: 45px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
   margin: auto;
-  margin-bottom: 59px;
+  margin-bottom: 39px;
+  max-width: 670px;
 }
 
 .steps__subtitle {
@@ -686,6 +720,7 @@ main {
   background-position: left center, center right;
   background-size: 50%, 50% 100%;
   background-repeat: repeat-y, no-repeat;
+  padding-top: 76px;
 }
 
 .brif-block {
@@ -718,6 +753,9 @@ main {
   max-width: 370px;
   margin-top: 15px;
   margin-bottom: 30px;
+  font-size: 16px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .interview {
@@ -725,16 +763,17 @@ main {
 }
 
 .interview__title {
-  margin-bottom: 50px;
+  margin-bottom: 44px;
   font-size: 22px;
+  line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
 }
 
 .interview__subtitle {
   display: block;
-  font-size: 15px;
-  margin-bottom: 95px;
+  font-size: 16px;
+  margin-bottom: 93px;
 }
 
 .interview-list {
@@ -746,15 +785,16 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-.interview-list__item:nth-last-child {
+.interview-list__item:last-child {
+  margin-top: 34px;
   margin-bottom: 0;
 }
 
@@ -772,11 +812,15 @@ main {
 
 .interview-list__text {
   max-width: 400px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .form__title {
-  margin-bottom: 50px;
+  margin-top: 18px;
+  margin-bottom: 46px;
   font-size: 22px;
+  line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
 }
