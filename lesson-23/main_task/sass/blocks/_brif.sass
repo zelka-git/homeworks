@@ -1,0 +1,156 @@
+.brif
+  background-image: url('../img/brif/brif-color-bg.png'), url('../img/brif/brif-bg.jpg')
+  background-position: left center, center right
+  background-size: 50%, 50% 100%
+  background-repeat: repeat-y, no-repeat
+  padding-top: 76px
+  padding-bottom: 93px
+  &-block
+    display: flex
+  &__interview
+    flex-basis: 50%
+  &__form
+    flex-basis: 50%
+    padding-left: 200px
+    text-align: center
+  &__input
+    width: 100%
+    max-width: 370px
+    margin-bottom: 15px
+    &:focus
+      outline: none
+      border: 1px solid $offer-input-focus
+  &__button
+    height: 70px
+    width: 100%
+    max-width: 370px
+    margin-top: 15px
+    margin-bottom: 30px
+    font-size: 16px
+    +bold
+.interview
+  padding-right: 70px
+  &__title
+    margin-bottom: 44px
+    font-size: 22px
+    line-height: 33px
+    +bold
+  &__subtitle
+    display: block
+    font-size: 16px
+    margin-bottom: 93px
+  &-list 
+    list-style: none
+    padding: 0
+    &__item
+      display: flex
+      align-items: baseline
+      +bold
+      margin-bottom: 25px
+      &:last-child
+        margin-top: 34px
+        margin-bottom: 0
+    &__counter
+      display: inline-block
+      margin-right: 30px
+      text-align: center
+      line-height: 35px
+      font-size: 14px
+      min-width: 35px
+      height: 35px
+      border: 2px solid $text-color 
+      border-radius: 50%
+    &__text
+      max-width: 400px
+      font-size: 18px
+      font-weight: 400
+.form
+  &__title 
+    margin-top: 18px
+    margin-bottom: 46px
+    font-size: 22px
+    line-height: 33px
+    +bold
+
+  &__subtitle 
+    display: block
+    font-size: 15px
+    margin-bottom: 95px
+  &__description
+    display: block
+    text-align: center
+
+@media (max-width: 1200px)
+  .brif
+    &__form
+      padding-left: 30px
+  .interview
+    padding-right: 30px
+    &__title
+      font-size: 30px 
+      margin-bottom: 15px
+    &__subtitle 
+      margin-bottom: 30px
+    &-list 
+      &__text 
+        font-size: 14px
+        max-width: 300px
+      &__counter
+        margin-right: 20px
+  .form
+    &__title
+      font-size: 30px 
+      margin-bottom: 15px
+    &__subtitle 
+      margin-bottom: 30px
+
+@media (max-width: 768px)
+  .brif
+    background-image: url('../img/brif/brif-color-bg.png'), url('../img/brif/brif-bg.jpg')
+    background-position: top center, center bottom
+    background-size: 100% 45%, cover
+    background-repeat: repeat-x, no-repeat
+    &-block
+      flex-direction: column
+    &__form 
+      margin-top: 80px
+      padding-left: 0
+    &__input
+      display: block
+      margin-left: auto
+      margin-right: auto
+    &__button
+      display: block
+      margin-left: auto
+      margin-right: auto
+    &__interview
+      margin-bottom: 50px
+  .interview
+    padding-right: 0
+
+@media (max-width: 567px)
+  .brif
+    padding-top: 21px
+    padding-bottom: 34px
+    &__form
+      margin-top: 20px
+  .interview
+    &__title
+      font-size: 18px
+      line-height: 1.1
+      margin-bottom: 12px
+    &__subtitle 
+      font-size: 14px
+    &-list 
+      &__counter
+        margin-right: 8px
+  .form
+    &__title
+      font-size: 18px
+      line-height: 1.4
+    &__subtitle 
+      font-size: 14px
+
+
+
+
