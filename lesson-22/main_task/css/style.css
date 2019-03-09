@@ -112,7 +112,13 @@ main {
   cursor: pointer;
 }
 
-.error {
+input.error {
+  outline: none;
+  border: 1px solid red;
+}
+
+input.error:focus {
+  outline: none;
   border: 1px solid red;
 }
 
@@ -806,6 +812,11 @@ main {
   margin-bottom: 15px;
 }
 
+.brif__input:focus {
+  outline: none;
+  border: 1px solid #ffa500;
+}
+
 .brif__button {
   height: 70px;
   width: 100%;
@@ -929,7 +940,7 @@ main {
   .brif {
     background-image: url("../img/brif/brif-color-bg.png"), url("../img/brif/brif-bg.jpg");
     background-position: top center, center bottom;
-    background-size: 100% 50%, cover;
+    background-size: 100% 45%, cover;
     background-repeat: repeat-x, no-repeat;
   }
   .brif-block {
@@ -962,18 +973,22 @@ main {
 
 @media (max-width: 567px) {
   .brif {
-    padding-top: 46px;
+    padding-top: 21px;
     padding-bottom: 34px;
   }
   .brif__form {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .interview__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.1;
+    margin-bottom: 12px;
   }
   .interview__subtitle {
     font-size: 14px;
+  }
+  .interview-list__counter {
+    margin-right: 8px;
   }
   .form__title {
     font-size: 18px;
@@ -1073,6 +1088,9 @@ main {
 }
 
 @media (max-width: 567px) {
+  .footer {
+    padding-bottom: 650px;
+  }
   .contacts {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1083,10 +1101,11 @@ main {
     margin-top: 7px;
     margin-bottom: 40px;
     font-size: 18px;
+    line-height: 1;
   }
   .map {
-    left: 0;
-    top: 550px;
+    top: auto;
+    bottom: 0;
     width: 100%;
   }
 }
