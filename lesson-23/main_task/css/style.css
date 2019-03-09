@@ -341,7 +341,7 @@ input.error:focus {
     font-size: 24px;
   }
   .hero-text__subtitle {
-    ont-size: 16px;
+    font-size: 16px;
   }
 }
 
@@ -1180,20 +1180,24 @@ input.error:focus {
 
 @media (max-width: 1200px) {
   .support-block__item {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .support-block__item:nth-child(2n+1) {
     margin-right: 20px;
   }
   .support-block__item:last-child {
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .support-block__item {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 51px;
+  .support {
+    padding-top: 0;
   }
-  .support-block__item:last-child {
+  .support-block__item:nth-child(n) {
     margin-left: auto;
     margin-right: auto;
   }
