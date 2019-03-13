@@ -1,0 +1,44 @@
+.guarantee
+  padding-bottom: 228px
+  padding-top: 27px
+  &__title
+    margin: auto
+    font-size: 30px
+    line-height: 45px
+    max-width: 645px
+    margin-bottom: 93px
+    +bold
+  &__blocks
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+  &__block
+    max-width: 286px
+    text-align: center
+    &-images 
+      width: 270px
+      height: 360px
+      display: flex
+      justify-content: center
+      align-items: center
+      background-color: $secondary
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 36px
+    &-text 
+      font-size: 18px
+      line-height: 24px
+
+@media (max-width: 1200px)
+  .guarantee
+    padding-bottom: 150px
+    &__block 
+      margin-bottom: 30px
+
+@media (max-width: 567px)
+  .guarantee
+    padding-bottom: 60px
+    &__title 
+      font-size: 18px
+      line-height: 1.4
+      +bold 

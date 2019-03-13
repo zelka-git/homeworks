@@ -1,0 +1,105 @@
+.offer
+  background: url('../img/offer/offer-bg.png') no-repeat
+  background-size: contain
+  background-position: center right
+  position: relative
+  padding-top: 47px
+  padding-bottom: 80px
+  &:before
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-color: #fff
+  &-block
+    width: 50%
+    padding-right: 90px
+    position: relative
+  &__title
+    max-width: 360px
+    line-height: 35px
+    margin-bottom: 19px
+    font-size: 24px
+    text-align: left
+  &__subtitle
+    max-width: 250px
+    margin-bottom: 30px
+    font-size: 16px
+    line-height: 20px
+  &__input 
+    // margin-right: 14px
+    margin-bottom: 30px
+    display: flex
+    flex-direction: column
+    width: 240px
+    &:first-child
+      margin-right: 10px 
+    // &:focus
+    //   outline: none
+    //   border: 1px solid $offer-input-focus
+    &s 
+      display: flex
+      flex-wrap: wrap
+
+      
+  &__button
+    width: 100%
+    min-height: 70px
+    font-size: 16px
+    line-height: 18px
+    +bold
+  &__feedback
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    font-size: 15px
+    // font-weight: 400
+    line-height: 24px
+    margin-top: 27px
+    &-info 
+      width: 225px
+      margin-bottom: 18px
+    &-tell 
+      width: 202px
+      &__bold
+        +bold
+        color: $text-color
+        text-decoration: none 
+
+  &__form
+    text-align: center
+
+
+@media (max-width: 1200px)
+  .offer
+    background-size: cover
+    &__input
+      width: 100%
+      margin-bottom: 10px
+    &__button
+      font-size: 13px
+@media (max-width: 768px)
+  .offer
+    background: #fff
+    &-block 
+      width: 100%
+      padding-right: 0
+    &__input
+      width: 100%
+      margin-bottom: 10px
+      &:first-child
+        margin-right: 0
+    &__button
+      font-size: 13px
+
+@media (max-width: 567px)
+  .offer
+    &__title
+      font-size: 18px
+      line-height: 1.4
+    &__subtitle 
+      font-size: 14px
+
+
