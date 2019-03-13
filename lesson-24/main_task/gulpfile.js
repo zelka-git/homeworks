@@ -66,7 +66,7 @@ gulp.task('tinypng', function (done) {
 // });
 
 gulp.task('minjs', function(done){
-  gulp.src('js/*.js')
+  gulp.src('js/*.js', 'js/*.min.js')
       // .pipe(jshint())
       // .pipe(jshint.reporter('default'))
       .pipe(concat('file.js'))
