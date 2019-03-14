@@ -14,7 +14,7 @@ gulp.task('minify-css', function(done){
   .pipe(cleanCSS({
     compatibility: 'ie8'
   }))
-  .pipe(gulp.dest('../dist/css/'))
+  .pipe(gulp.dest('../dist1/css/'))
 
   done();
 });
@@ -23,7 +23,7 @@ gulp.task('move-js', function(done){
   // return gulp.src('css/*.css')
   gulp.src('js/*.js')
 
-  .pipe(gulp.dest('../dist/js/'))
+  .pipe(gulp.dest('../dist1/js/'))
 
   done();
 });
@@ -33,7 +33,7 @@ gulp.task('htmlmin', function(done){
   // return gulp.src('*.html')
   gulp.src('*.html')
   .pipe(htmlmin({ collapseWhitespace: true }))
-  .pipe(gulp.dest('../dist/'))
+  .pipe(gulp.dest('../dist1/'))
 
   done();
 });
@@ -42,7 +42,7 @@ gulp.task('htmlmin', function(done){
 gulp.task('fonts', function(done){
   // return gulp.src('*.html')
   gulp.src('fonts/**/*')
-  .pipe(gulp.dest('../dist/fonts'))
+  .pipe(gulp.dest('../dist1/fonts'))
 
   done();
 });
@@ -52,7 +52,7 @@ gulp.task('tinypng', function (done) {
       .pipe(tinyPNG({
           key: 'Tw6cDsYV2B5Sgqh3QvVswq6nMH3zQDlb'
       }))
-      .pipe(gulp.dest('../dist/img/'));
+      .pipe(gulp.dest('../dist1/img/'));
       done();
 });
 
@@ -72,13 +72,13 @@ gulp.task('minjs', function(done){
       .pipe(concat('file.js'))
       .pipe(rename('file.min.js'))
       .pipe(uglify())
-      .pipe(gulp.dest('../dist/js/'));
+      .pipe(gulp.dest('../dist1/js/'));
       done();
 });
 
 
 
-gulp.task('default', gulp.parallel('minify-css', 'minjs', 'htmlmin', 'fonts', 'tinypng', function (done) {
+gulp.task('default', gulp.parallel('minify-css', 'minjs', 'htmlmin', 'fonts',  function (done) {
   // place code for your default task here
   // console.log('Задача выполнена');
   done();
