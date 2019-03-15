@@ -917,7 +917,7 @@ input.error:focus {
   }
   .hero-text__title {
     font-size: 24px;
-    line-height: 1.4;
+    line-height: 1.3;
     margin-bottom: 15px;
   }
   .hero-text__subtitle {
@@ -936,11 +936,21 @@ input.error:focus {
 }
 
 @media (max-width: 567px) {
+  .hero {
+    padding-top: 10px;
+  }
   .hero-text__title {
     font-size: 24px;
+    margin-bottom: 8px;
   }
   .hero-text__subtitle {
     font-size: 16px;
+  }
+  .hero-list {
+    margin-bottom: 36px;
+  }
+  .hero-list__text {
+    line-height: 16px;
   }
 }
 
@@ -1085,12 +1095,24 @@ input.error:focus {
 }
 
 @media (max-width: 567px) {
+  .offer {
+    padding-top: 29px;
+    padding-bottom: 50px;
+  }
   .offer__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.3;
+    margin-bottom: 12px;
   }
   .offer__subtitle {
     font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .offer__feedback {
+    margin-top: 20px;
+  }
+  .offer__feedback-info {
+    margin-bottom: 5px;
   }
 }
 
@@ -1158,9 +1180,17 @@ input.error:focus {
 }
 
 @media (max-width: 567px) {
+  .portfolio {
+    padding-top: 41px;
+    padding-bottom: 60px;
+  }
   .portfolio__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  .portfolio__arrows {
+    margin-top: 28px;
   }
 }
 
@@ -1281,12 +1311,33 @@ input.error:focus {
 }
 
 @media (max-width: 567px) {
+  .price {
+    padding-top: 47px;
+    padding-bottom: 0;
+  }
   .price__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.2;
+    margin-bottom: 12px;
   }
   .price__subtitle {
     font-size: 14px;
+    margin-bottom: 44px;
+  }
+  .price__card {
+    margin-bottom: 30px;
+  }
+  .card__text {
+    padding: 4px 38px 31px 43px;
+  }
+  .card__title {
+    font-size: 14px;
+    line-height: 45px;
+    margin-bottom: 0;
+  }
+  .card__link {
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -1394,17 +1445,37 @@ input.error:focus {
 
 @media (max-width: 567px) {
   .steps {
-    padding-bottom: 75px;
+    padding-bottom: 85px;
   }
   .steps__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.2;
+    padding-top: 0;
+    margin-bottom: 9px;
   }
   .steps__subtitle {
     font-size: 14px;
+    margin-bottom: 20px;
   }
   .step:last-child {
     margin-bottom: 0;
+  }
+  .step__text {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 140px;
+  }
+  .step__image {
+    margin-bottom: 17px;
+  }
+  .step:nth-child(2) {
+    margin-bottom: 41px;
+  }
+  .step:nth-child(3) {
+    margin-bottom: 53px;
+  }
+  .step:nth-child(4) {
+    margin-bottom: 40px;
   }
 }
 
@@ -1597,7 +1668,7 @@ input.error:focus {
 
 @media (max-width: 567px) {
   .brif {
-    padding-top: 21px;
+    padding-top: 26px;
     padding-bottom: 34px;
   }
   .brif__form {
@@ -1605,7 +1676,7 @@ input.error:focus {
   }
   .interview__title {
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: 12px;
   }
   .interview__subtitle {
@@ -1724,8 +1795,15 @@ input.error:focus {
   }
   .contacts__title {
     margin-top: 7px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     font-size: 18px;
+    line-height: 1.2;
+  }
+  .contacts-list {
+    margin-top: 20px;
+  }
+  .contacts-list__item {
+    margin-bottom: 29px;
   }
   .map {
     top: auto;
@@ -1816,11 +1894,34 @@ input.error:focus {
 }
 
 @media (max-width: 567px) {
+  .support {
+    padding-bottom: 44px;
+  }
   .support-title {
+    padding-top: 52px;
+    padding-bottom: 58px;
+  }
+  .support-title__text {
     font-size: 18px;
-    line-height: 1.4;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 270px;
+  }
+  .support-block {
+    margin-top: 50px;
+  }
+  .support-block__text {
+    font-size: 12px;
+    line-height: 16.83px;
+    margin-right: 45px;
+    margin-left: 18px;
+  }
+  .support-block__item {
+    max-width: 275px;
+    padding-bottom: 243px;
+    margin-bottom: 14px;
   }
 }
 
@@ -1892,9 +1993,20 @@ input.error:focus {
   }
   .guarantee__title {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.2;
     font-family: 'Museo Sans Bold', sans-serif;
     font-weight: 700;
+    max-width: 230px;
+    margin-bottom: 52px;
+  }
+  .guarantee__block-text {
+    display: inline-block;
+    font-size: 14px;
+    max-width: 230px;
+    line-height: 1.1;
+  }
+  .guarantee__block-images {
+    margin-bottom: 31px;
   }
 }
 /*# sourceMappingURL=style.css.map */
