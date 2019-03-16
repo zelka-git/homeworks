@@ -1120,7 +1120,7 @@ label.error {
   }
   .offer__title {
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 12px;
   }
   .offer__subtitle {
@@ -1229,6 +1229,9 @@ label.error {
     max-width: 246px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .slider__image {
+    width: 100%;
   }
 }
 

@@ -15,8 +15,7 @@ $(Document).ready(function(){
       },
       phone: {
         required: true,
-        minlength: 10,
-        maxlength: 10
+        minlength: 10
       }
     },
     messages:{
@@ -27,8 +26,7 @@ $(Document).ready(function(){
       }, 
       phone:{
         required: "Укажите телефон",
-        minlength: "Укажите телефон",
-        maxlength: "Укажите телефон"
+        minlength: "Укажите телефон"
       }
     }
   });
@@ -49,8 +47,8 @@ $(Document).ready(function(){
       },
       phone: {
         required: true,
-        minlength: 10,
-        maxlength: 10
+        minlength: 10
+        // maxlength: 10
       }
     },
     messages:{
@@ -65,8 +63,7 @@ $(Document).ready(function(){
       }, 
       phone:{
         required: "Укажите телефон",
-        minlength: "Укажите телефон",
-        maxlength: "Укажите телефон"
+        minlength: "Укажите телефон"
       }
     }
   });
