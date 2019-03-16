@@ -35,6 +35,15 @@
     &__block 
       margin-bottom: 30px
 
+@media (max-width: 768px)
+  .guarantee
+    &__block
+      margin-left: auto
+      margin-right: auto  
+      &s
+        flex-direction: column  
+
+
 @media (max-width: 567px)
   .guarantee
     padding-bottom: 60px
@@ -45,11 +54,14 @@
       max-width: 230px
       margin-bottom: 52px
     &__block
+
       &-text
         display: inline-block
         font-size: 14px
         max-width: 230px
-        line-height: 1.1
+        line-height: 1.2
       &-images
-        margin-bottom: 31px
+        margin-bottom: 34px
+      &:nth-child(2)
+        margin-bottom: 45px
 

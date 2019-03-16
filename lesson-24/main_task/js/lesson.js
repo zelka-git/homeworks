@@ -14,7 +14,9 @@ $(Document).ready(function(){
         email: true
       },
       phone: {
-        required: true
+        required: true,
+        minlength: 10,
+        maxlength: 10
       }
     },
     messages:{
@@ -24,7 +26,9 @@ $(Document).ready(function(){
         maxlength: jQuery.validator.format("Не больше {0} символов")
       }, 
       phone:{
-        required: "Укажите телефон"
+        required: "Укажите телефон",
+        minlength: "Укажите телефон",
+        maxlength: "Укажите телефон"
       }
     }
   });
@@ -44,7 +48,9 @@ $(Document).ready(function(){
         email: true
       },
       phone: {
-        required: true
+        required: true,
+        minlength: 10,
+        maxlength: 10
       }
     },
     messages:{
@@ -58,7 +64,9 @@ $(Document).ready(function(){
         email: "Ваш email должен быть в формате name@domain.com"
       }, 
       phone:{
-        required: "Укажите телефон"
+        required: "Укажите телефон",
+        minlength: "Укажите телефон",
+        maxlength: "Укажите телефон"
       }
     }
   });

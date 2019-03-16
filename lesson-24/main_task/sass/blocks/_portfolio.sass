@@ -20,6 +20,15 @@
 .slider
   &__image
     margin: auto
+  &__item 
+    outline: none
+@media (max-width: 768px)
+  .portfolio
+    background: $secondary
+  .slider
+    &__image
+      width: 95%
+      max-width: 400px
 
 @media (max-width: 567px)
   .portfolio
@@ -28,6 +37,10 @@
     &__title
       font-size: 18px
       line-height: 1.2
-      margin-bottom: 30px
+      margin-bottom: 42px
     &__arrows
-      margin-top: 28px
+      margin-top: 46px
+  .slider 
+    max-width: 246px
+    margin-left: auto
+    margin-right: auto

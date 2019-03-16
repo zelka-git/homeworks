@@ -2,17 +2,18 @@
   padding-bottom: 100px
   &-title 
     background-color: adjust-hue($main-color, -4deg)
-    padding-top: 80px
-    padding-bottom: 90px
+    padding-top: 55px
+    padding-bottom: 61px
     text-align: center
-    font-size: 32px
-    line-height: 50px
     margin-top: 0
     margin-bottom: 0
+    &__text 
+      font-size: 32px
+      line-height: 50px
   &-block 
     display: flex
     flex-wrap: wrap
-    margin-top: 98px
+    margin-top: 94px
     &__item
       background-color: $secondary
       position: relative
@@ -40,20 +41,26 @@
 @media (max-width: 1200px)
   .support
     &-block 
+      flex-direction: column
       &__item
         // padding-bottom: 250px
         // margin-right: 20px
         margin-right: 0
         margin-bottom: 30px
-        &:nth-child(2n+1)
-          margin-right: 20px 
+        margin-left: auto
+        margin-right: auto 
         &:last-child
           margin-left: auto
-          margin-right: auto
+          margin-right: auto 
           margin-bottom: 0
 @media (max-width: 768px)
   .support
     padding-top: 0
+    &-title
+      &__text
+        max-width: 488px
+        margin-left: auto
+        margin-right: auto
     &-block 
       &__item
         &:nth-child(n)

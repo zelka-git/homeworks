@@ -75,6 +75,16 @@ gulp.task('minjs', function(done){
       .pipe(gulp.dest('../dist1/js/'));
       done();
 });
+gulp.task('concjs', function(done){
+  gulp.src('js/*.js', 'js/*.min.js')
+      // .pipe(jshint())
+      // .pipe(jshint.reporter('default'))
+      .pipe(concat('file.js'))
+      .pipe(rename('file.min.js'))
+      // .pipe(uglify())
+      .pipe(gulp.dest('../dist1/js/'));
+      done();
+});
 
 
 
