@@ -29,6 +29,9 @@
             MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
                 '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
             ),
+
+            //отключаем зум колёсиком мышки
+            myMap.behaviors.disable('scrollZoom'),
         
             myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
                 hintContent: 'Собственный значок метки',
@@ -45,15 +48,17 @@
                 // её "ножки" (точки привязки).
                 iconImageOffset: [0, 0]
             });
+                
               myMap.geoObjects
               .add(myPlacemark);
+            //   myMap.behaviors.disable('multiTouch');
         }
        
     }
 
     // При разрешении больше 768 карта грузится автоматически, иначе при появлении области
 function init () {
-  if ( $(window).width() > 1200 )
+  if ( $(window).width() > 768 )
   {
     showMap();  
   }  else{
