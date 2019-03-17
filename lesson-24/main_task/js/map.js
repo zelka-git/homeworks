@@ -3,11 +3,14 @@
     // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
     ymaps.ready(init);
     var myMap;
-    var Map =  $('#map');
+    var Map =  $('.brif__form');
 
     function showMap(){
         if( !myMap )
         {
+            var $newdiv1 = $( "<div id='map'></div>");
+            $( "footer" ).prepend( $newdiv1);
+            $('#map').attr('class', 'map');
             myMap = new ymaps.Map("map", {
                 // Координаты центра карты.
                 // Порядок по умолчанию: «широта, долгота».
@@ -50,12 +53,12 @@
 
     // При разрешении больше 768 карта грузится автоматически, иначе при появлении области
 function init () {
-  if ( $(window).width() > 768 )
+  if ( $(window).width() > 1200 )
   {
     showMap();  
   }  else{
     $(window).scroll(function() {
-        if( ($(this).scrollTop() + $(this).height() ) > Map.offset().top ) {  
+        if( ($(this).scrollTop() + $(this).height() ) > Map.offset().top+500 ) { 
             showMap();
         } 
     });
