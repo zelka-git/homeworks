@@ -77,3 +77,20 @@
     font-family: 'Roboto Light', sans-serif;
     font-weight: 300; 
   }
+
+
+  @font-face {
+    font-family: 'Franklin Gothic';
+    src: url('../fonts/FranklinGothic-Heavy/FranklinGothic-Heavy.eot');
+    src: url('../fonts/FranklinGothic-Heavy/') format('embedded-opentype'),
+        url('../fonts/FranklinGothic-Heavy/FranklinGothic-Heavy.woff') format('woff'),
+        url('../fonts/FranklinGothic-Heavy/FranklinGothic-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@mixin gothic {
+  font-family: 'Franklin Gothic', sans-serif;
+  text-transform: uppercase;
+}

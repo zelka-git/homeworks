@@ -28,11 +28,15 @@ img
   +roboto
   font-size: 30px
   line-height: 24px
+  @media (max-width: 567px)
+    font-size: 24px
 
 =services__text 
   +roboto
   font-size: 16px
   line-height: 24px
+  @media (max-width: 567px)
+    font-size: 14px
 =button-btn
   width: 184px
   height: 51px
@@ -45,3 +49,24 @@ img
   line-height: 28px
   text-transform: uppercase
   border: none
+
+
+
+
+.fonts
+  background: url('../img/hero/7-layers.png') no-repeat
+  background-position: 50% 0
+
+@media (max-width: 1200px)
+  .fonts
+    background-size: 200% 110%
+
+@media (max-width: 768px)
+  .fonts
+    background-size: 200% 120%
+
+@media (max-width: 567px)
+  .fonts
+    background-size: 162% 85%
+    background-position: 50% 100%
+
