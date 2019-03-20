@@ -1,5 +1,32 @@
 .room
+  background: url('../img/room/room.png') no-repeat
+  background-size: contain
+  background-position: center right
+  // background-position: 0% 100%
+  position: relative
+  &:after
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-color: #fff
+  &-image 
+    position: absolute
+    top: 0
+    right: 50%
   &-block 
+
+    display: flex
+  &__name 
+    font-size: 100px
+    line-height: 65px
+    text-align: right
+    max-width: 558px
+    +gothic
+
+  &__description 
     max-width: 460px
   &__title
     +services__title 
