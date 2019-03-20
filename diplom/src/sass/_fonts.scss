@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot');
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+  }
+
+  @mixin reg {
+    font-family: 'Museo Sans Light', sans-serif;
+    font-weight: 400;
+  }
+
+  @mixin bold{
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Roboto Rgular';
+    src: url('../fonts/Roboto/RobotoRegular/RobotoRegular.eot');
+    src: url('../fonts/Roboto/RobotoRegular/RobotoRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoRegular/RobotoRegular.woff') format('woff'),
+    url('../fonts/Roboto/RobotoRegular/RobotoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/Roboto/RobotoBold/RobotoBold.eot');
+    src: url('../fonts/Roboto/RobotoBold/RobotoBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoBold/RobotoBold.woff') format('woff'),
+    url('../fonts/Roboto/RobotoBold/RobotoBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/Roboto/RobotoLight/RobotoLight.eot');
+    src: url('../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoLight/RobotoLight.woff') format('woff'),
+    url('../fonts/Roboto/RobotoLight/RobotoLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @mixin roboto {
+    font-family: 'Roboto Rgular', sans-serif;
+    font-weight: 300; 
+  }
+
+  @mixin roboto-bold {
+    font-family: 'Roboto Bold', sans-serif;
+    font-weight: 700; 
+  }
+
+  @mixin roboto-light {
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: 300; 
+  }

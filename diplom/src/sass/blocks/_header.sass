@@ -1,0 +1,48 @@
+.header
+  padding-top: 23px
+  padding-bottom: 23px
+  &-block 
+    display: flex
+    flex-direction: row
+    align-items:  center
+  &__image 
+    margin-right: 46px
+  &__menu
+    &-item 
+      text-decoration: none
+      text-transform: uppercase
+      +reg
+      font-size: 13px
+      line-height: 28px
+      color: $text-color
+      border-right: 1px dotted  $text-color
+      padding-right: 22px
+      padding-left: 15px
+      padding-top: 8px
+      padding-bottom: 8px
+      &:hover
+        cursor: pointer
+        color: $text-color-hover
+        +bold
+      &:last-child
+        border-right: none
+        padding-right: 0
+
+@media (max-width: 1200px)
+  .header
+    &__image 
+      margin-right: 10px
+    &__menu
+      &-item 
+        padding-right: 15px
+@media (max-width: 568px)
+  .header
+    &__image 
+      margin-right: 7px
+    &__menu
+      &-item 
+        padding-right: 10px
+        font-size: 11px
+        line-height: 24px
+
+       

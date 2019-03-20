@@ -1,0 +1,393 @@
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Roboto Rgular';
+  src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/Roboto/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/Roboto/RobotoBold/RobotoBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/Roboto/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 28px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 760px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 580px;
+    width: 90%;
+  }
+}
+
+.header {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.header-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__image {
+  margin-right: 46px;
+}
+
+.header__menu-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  color: #2d2d2d;
+  border-right: 1px dotted #2d2d2d;
+  padding-right: 22px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header__menu-item:hover {
+  cursor: pointer;
+  color: #3fc380;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+
+.header__menu-item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .header__image {
+    margin-right: 10px;
+  }
+  .header__menu-item {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 568px) {
+  .header__image {
+    margin-right: 7px;
+  }
+  .header__menu-item {
+    padding-right: 10px;
+    font-size: 11px;
+    line-height: 24px;
+  }
+}
+
+.hero {
+  background: url("../img/hero/main.png") no-repeat;
+  background-size: 100% center;
+  text-align: center;
+  padding-top: 351px;
+  padding-bottom: 178px;
+  border: red;
+}
+
+.hero__text {
+  max-width: 750px;
+  margin: auto;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 35px;
+}
+
+.hero__button {
+  width: 198px;
+  height: 55px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.welcome {
+  padding-top: 70px;
+  border-bottom: 1px solid rgba(223, 223, 223, 0.5);
+}
+
+.welcome-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome-text {
+  max-width: 678px;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+}
+
+.welcome-text__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.welcome-text__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.description {
+  padding-bottom: 86px;
+}
+
+.description-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.description-block__item {
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.description-block__title {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: 'Roboto Bold', sans-serif;
+  font-weight: 700;
+}
+
+.description-block__text {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  font-family: 'Roboto Light', sans-serif;
+  font-weight: 300;
+}
+
+.room-block {
+  max-width: 460px;
+}
+
+.room__title {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.room__text {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.room__button {
+  width: 184px;
+  height: 51px;
+  background-color: #3fc380;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.bathhouse-block {
+  max-width: 460px;
+}
+
+.bathhouse__title {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.bathhouse__text {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bathhouse__button {
+  width: 184px;
+  height: 51px;
+  background-color: #3fc380;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.attractions {
+  text-align: center;
+}
+
+.attractions__title {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.attractions__subtitle {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 770px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.attractions-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.attractions-block__date {
+  color: #8e8e8e;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.attractions-block__text {
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  display: block;
+  max-width: 312px;
+  text-align: left;
+}
+
+.attractions__button {
+  width: 184px;
+  height: 51px;
+  background-color: #3fc380;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: 'Roboto Rgular', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
