@@ -2,28 +2,63 @@
   text-align: center
   &__title 
     +services__title 
+    margin-bottom: 17px
   &__subtitle
     +services__text
-    max-width: 770px
+    max-width: 785px
     text-align: center
     margin-left: auto
     margin-right: auto
+    margin-bottom: 40px
   &-block 
     display: flex
     flex-wrap: wrap
+    justify-content: space-between
+    margin-bottom: 64px
     &__item
+      max-width: 362px
+      background-color: $bg-color-card
+      &:hover 
+        cursor: pointer
+        border-bottom: 3px solid #3fc380
+        .attractions-block__line
+          color: #383838
+          size: 7px
     &__date 
       color: #8e8e8e
       +roboto
       font-size: 14px
       line-height: 24px
+      margin-bottom: 6px
+      text-align: left
+      margin-top: 16px
+      padding-left: 25px
     &__text 
       +roboto
       font-size: 19px
       font-weight: 700
       line-height: 24px
       display: block
-      max-width: 312px
+      // max-width: 312px
       text-align: left
+      padding-left: 23px
+      margin-bottom: 10px
+    &__line
+      size: 2px 
+      width: 40px
+      margin: 0 auto 17px 25px
+      color: #cccccc
+      
   &__button
     +button-btn
+
+@media (max-width: 1200px)
+  .attractions
+    &-block
+      flex-direction: column
+      &__item 
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 20px
+        &:last-child
+          margin-bottom: 0

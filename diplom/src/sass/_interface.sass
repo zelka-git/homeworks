@@ -15,6 +15,7 @@ img
   line-height: 28px
   cursor: pointer
   border-radius: 50px
+  outline: none
 
 @media (max-width: 1200px)
   .container
@@ -28,8 +29,11 @@ img
   +roboto
   font-size: 30px
   line-height: 24px
+  font-weight: 700
   @media (max-width: 567px)
     font-size: 24px
+
+
 
 =services__text 
   +roboto
@@ -50,24 +54,18 @@ img
   line-height: 28px
   text-transform: uppercase
   border: none
+  &:hover 
+    background-color: lighten($text-color-hover, 10%)
+  @media (max-width: 567px)
+    width: 150px
+    height: 48px
+    font-size: 11px
 
 
 
 
-.fonts
-  background: url('../img/hero/7-layers.png') no-repeat
-  background-position: 50% 0
 
-@media (max-width: 1200px)
-  .fonts
-    background-size: 200% 110%
 
-@media (max-width: 768px)
-  .fonts
-    background-size: 200% 120%
 
-@media (max-width: 567px)
-  .fonts
-    background-size: 162% 85%
-    background-position: 50% 100%
+
 

@@ -1,5 +1,5 @@
 .description
-  padding-bottom: 86px
+  padding-bottom: 72px
   padding-top: 60px
   &-block
     display: flex
@@ -23,5 +23,12 @@
       text-align: justify
       +roboto-light
       margin-top: -12px
-#svg-tree
-  fill: #3fc380
+
+@media (max-width: 1200px)
+  .description
+    &-block
+      flex-direction: column
+      &__item
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 25px
