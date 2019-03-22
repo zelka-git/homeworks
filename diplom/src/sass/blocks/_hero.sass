@@ -1,26 +1,28 @@
 .hero 
-  background: url('../img/hero/text_mask.png') no-repeat 52% 29%,
-  url('../img/hero/11-layers.jpg') no-repeat  50% 0
+  background: url('../img/hero/11-layers.jpg') no-repeat  50% 0,
+  
 
     // .fonts
   // background: url('../img/hero/7-layers.png') no-repeat
   // background-position: 50% 0
   // background-position: 52% 29%
   text-align: center
-  padding-top: 77px
+  padding-top: 104px
   padding-bottom: 184px
   border: red
   margin-bottom: 30px
   position: relative
-  &:before
-    width: 252px
-    height: 331px
-    content: ''
-    background: url('../img/hero/Layer_7.png') no-repeat
-    background-blend-mode: normals
-    position: absolute
-    top: -86px
-    right: 302px
+  // &:before
+  //   width: 252px
+  //   height: 331px
+  //   content: ''
+  //   background: url('../img/hero/Layer_7.png') no-repeat
+  //   // background-blend-mode: normals
+  //   position: absolute
+  //   top: -86px
+  //   right: 302px
+  //   // opacity: 0.4
+  //   z-index: 0
   &__title 
     font-size: 160px
     line-height: 24px
@@ -28,7 +30,7 @@
     font-weight: 400
     // font-stretch: normal
     margin-bottom: 114px
-    text-shadow: rgba(247, 247, 247, 0.9) 5px 5px 0
+    // text-shadow: rgba(247, 247, 247, 0.9) 1px 1px 0
     +gothic
   &__text
     max-width: 750px
@@ -45,9 +47,8 @@
     color: $text-decoration
     border: 1px solid $text-decoration
     &:hover
-      border: 12px solid $text-decoration
-
-
+      border-color:  $text-color-hover
+      color: $text-color-hover
 
 @media (max-width: 1200px)
   .hero

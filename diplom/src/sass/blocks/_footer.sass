@@ -1,0 +1,45 @@
+.footer
+  padding-bottom: 30px
+  background-color: #393939
+  padding-top: 32px
+  &-block 
+    display: flex
+    justify-content:  space-between
+    align-items: center
+    margin-bottom: 29px
+  &__menu
+    &-item 
+      text-decoration: none
+      text-transform: uppercase
+      +reg
+      font-size: 12px
+      line-height: 28px
+      color: #ffffff
+      padding-right: 33px
+      padding-top: 8px
+      padding-bottom: 8px
+      &:hover
+        cursor: pointer
+        color: $text-color-hover
+        +bold
+      &:last-child
+        padding-right: 0
+  &__line
+    color: rgba(57, 57, 57, 0.2)
+    margin-bottom: 10px
+.copyright
+  text-align: center
+  opacity: 0.5
+  color: #ffffff
+  +roboto
+  font-size: 12px
+  font-weight: 300
+  line-height: 17px
+  max-width: 880px
+  margin-left: auto 
+  margin-right: auto
+
+@media (max-width: 768px)
+  .footer
+    &__menu 
+      display: none
