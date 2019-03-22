@@ -144,5 +144,34 @@
           }
           ]
         });
+
+        //slider bath 
+        $('.slider-for5').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.slider-nav5'
+        });
+        $('.slider-nav5').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for5',
+          // dots: true,
+          infinite: true,
+          // centerMode: true,
+          focusOnSelect: true,
+          prevArrow: $('.arrows__left5'),
+          nextArrow: $('.arrows__right5'),
+          responsive: [
+          {
+            breakpoint: 568,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+          ]
+        });
       });
  

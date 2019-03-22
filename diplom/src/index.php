@@ -27,9 +27,9 @@
                                 <nav class="header__menu">
                                     <a class="header__menu-item" href="about.php">О нас</a>
                                     <a class="header__menu-item" href="rooms.php">Наши номера</a>
-                                    <a class="header__menu-item" href="">Русская баня</a>
-                                    <a class="header__menu-item" href="">Достопримечательности</a>
-                                    <a class="header__menu-item" href="">Контакты</a>
+                                    <a class="header__menu-item" href="bathhouses.php">Русская баня</a>
+                                    <a class="header__menu-item" href="attractions.php">Достопримечательности</a>
+                                    <a class="header__menu-item" href="cantacts.php">Контакты</a>
                                 </nav>
                                 <!-- /.header__menu -->
                             
@@ -161,21 +161,20 @@
                 овеянных поэтическими легендами. </p>
         <!-- /.attractions__subtitle -->
         <div class="attractions-block">
-            <div class="attractions-block__item">
-                <div class="attractions-block__image">
-                    <img src="img/attractions/attraction-1.jpg" alt="">
+            <a href="OneAttraction.php">
+                <div class="attractions-block__item">
+                    <div class="attractions-block__image">
+                        <img src="img/attractions/attraction-1.jpg" alt="">
+                    </div>
+                    <div class="attractions-block__date">29 Марта, 2016</div>
+                    <span class="attractions-block__text">Военно-морской музей Балаклава (Музей подводных лодок)</span>
                 </div>
-                <div class="attractions-block__date">29 Марта, 2016</div>
-                	
-                <hr class="attractions-block__line">
-                <span class="attractions-block__text">Военно-морской музей Балаклава (Музей подводных лодок)</span>
-            </div>
+            </a>
             <div class="attractions-block__item">
                 <div class="attractions-block__image">
                     <img src="img/attractions/attraction-2.jpg" alt="">
                 </div>
                 <div class="attractions-block__date">2 Апреля, 2016</div>
-                <hr class="attractions-block__line">
                 <span class="attractions-block__text">Храм Двенадцати апостолов, Балаклава</span>
             </div>
             <div class="attractions-block__item">
@@ -183,7 +182,6 @@
                     <img src="img/attractions/attraction-3.jpg" alt="">
                 </div>
                 <div class="attractions-block__date">8 Апреля, 2016</div>
-                <hr class="attractions-block__line">
                 <span class="attractions-block__text">Фортификационное сооружение, крепость Чембало</span>
             </div>
         </div>
@@ -204,12 +202,12 @@
                   <nav class="footer__menu">
                       <a class="footer__menu-item" href="about.php">О нас</a>
                       <a class="footer__menu-item" href="rooms.php">Наши номера</a>
-                      <a class="footer__menu-item" href="">Русская баня</a>
-                      <a class="footer__menu-item" href="">Достопримечательности</a>
-                      <a class="footer__menu-item" href="">Контакты</a>
+                      <a class="footer__menu-item" href="bathhouses.php">Русская баня</a>
+                      <a class="footer__menu-item" href="attractions.php">Достопримечательности</a>
+                      <a class="footer__menu-item" href="contacts.php">Контакты</a>
                   </nav>
         </div>
-        <hr class="footer__line">
+
         <p class="copyright">© www.rus-sauna.com<br>Стиль, оформление, дизайн и содержание являются объектами авторского права и охраняются законом. Перепечатка и иное их использование без письменного разрешения не допускаются и ведут за собой ответственность.</p>
         <!-- /.header-block -->
       </div>

@@ -51,7 +51,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 5000р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button">Забронировать!</button>
+          <button class="room__description-button button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -95,7 +95,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 5000р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button">Забронировать!</button>
+          <button class="room__description-button button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -139,7 +139,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 2500р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button">Забронировать!</button>
+          <button class="room__description-button button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -182,7 +182,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 1200р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button">Забронировать!</button>
+          <button class="room__description-button button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -229,7 +229,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 400р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button">Забронировать!</button>
+          <button class="room__description-button button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->

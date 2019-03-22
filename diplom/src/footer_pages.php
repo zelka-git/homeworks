@@ -8,9 +8,9 @@
                       <a class="footer__menu-item" href="index.php">Главная</a>
                       <a class="footer__menu-item" href="about.php">О нас</a>
                       <a class="footer__menu-item" href="rooms.php">Наши номера</a>
-                      <a class="footer__menu-item" href="">Русская баня</a>
-                      <a class="footer__menu-item" href="">Достопримечательности</a>
-                      <a class="footer__menu-item" href="">Контакты</a>
+                      <a class="footer__menu-item" href="bathhouses.php">Русская баня</a>
+                      <a class="footer__menu-item" href="attractions.php">Достопримечательности</a>
+                      <a class="footer__menu-item" href="contacts.php">Контакты</a>
                   </nav>
                   <div class="footer__info">
                     <div class="footer-icon">
