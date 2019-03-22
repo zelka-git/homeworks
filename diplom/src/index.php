@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>БАЛАКЛАВА</title>
   <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
             <header class="header">
@@ -24,8 +25,8 @@
                                 <div class="burger-line third"></div>
                                 <div class="burger-line fourth"></div>
                                 <nav class="header__menu">
-                                    <a class="header__menu-item" href="about.html">О нас</a>
-                                    <a class="header__menu-item" href="">Наши номера</a>
+                                    <a class="header__menu-item" href="about.php">О нас</a>
+                                    <a class="header__menu-item" href="rooms.php">Наши номера</a>
                                     <a class="header__menu-item" href="">Русская баня</a>
                                     <a class="header__menu-item" href="">Достопримечательности</a>
                                     <a class="header__menu-item" href="">Контакты</a>
@@ -201,8 +202,8 @@
             <img src="img/footer-logo.png" alt="">
           </div>
                   <nav class="footer__menu">
-                      <a class="footer__menu-item" href="about.html">О нас</a>
-                      <a class="footer__menu-item" href="">Наши номера</a>
+                      <a class="footer__menu-item" href="about.php">О нас</a>
+                      <a class="footer__menu-item" href="rooms.php">Наши номера</a>
                       <a class="footer__menu-item" href="">Русская баня</a>
                       <a class="footer__menu-item" href="">Достопримечательности</a>
                       <a class="footer__menu-item" href="">Контакты</a>

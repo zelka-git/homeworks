@@ -8,51 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header header-about">
-    <div class="container">
-      <div class="header-block">
-        <div class="header__image header-about__image">
-          <img src="img/balaclava-logo.png" alt="">
-        </div>
-        <!-- /.header__image -->
+<?php include 'header_pages.php' ?>
 
-        <div class="header__menu-wrap header-about__menu-wrap">
-                <input type="checkbox" id="check-menu">
-                <label class="check-menu__label" for="check-menu"></label>
-                <div class="burger-line first"></div>
-                <div class="burger-line second"></div>
-                <div class="burger-line third"></div>
-                <div class="burger-line fourth"></div>
-                <nav class="header__menu">
-                    <a class="header__menu-item header-about__item" href="index.html">Главная</a>
-                    <a class="header__menu-item header-about__item" href="about.html">О нас</a>
-                    <a class="header__menu-item header-about__item" href="">Номера</a>
-                    <a class="header__menu-item header-about__item" href="">Русская баня</a>
-                    <a class="header__menu-item header-about__item" href="">Достопримечательности</a>
-                    <a class="header__menu-item header-about__item" href="">Контакты</a>
-                </nav>
-                <!-- /.header__menu -->       
-        </div>   
-        <div class="header__info">
-          <div class="header__info-icon">
-            <img src="img/icon.png" alt="">
-          </div>
-          <div class="header__info-contacts">
-            <a class="header__info-phone">8 (0765) 76 76 67</a>
-            <div class="header__info-addres">Россия, Крым, г. Балаклава “Гостевой дом с орлами”</div>
-          </div>
-        </div>
-        <!-- /.header__info -->
-
-
-
-
-      </div>
-      <!-- /.header-block -->
-    </div>
-    <!-- /.container -->
-  </header>
-  <!-- /.header -->
   <section class="article">
     <div class="container">
       <h3 class="article__title">Добро пожаловать в «Гостевой дом с орлами»!</h3>
@@ -73,37 +30,7 @@
     </div>
   </section>
   <!-- /.article -->
+  <?php include 'footer_pages.php' ?>
 
-  <footer class="footer footer-about">
-    <div class="container">
-        <div class="footer-block footer-about__block">
-          <div class="footer__image">
-            <img src="img/footer-logo.png" alt="">
-          </div>
-                  <nav class="footer__menu footer-about__menu">
-                      <a class="footer__menu-item" href="index.html">Главная</a>
-                      <a class="footer__menu-item" href="about.html">О нас</a>
-                      <a class="footer__menu-item" href="">Наши номера</a>
-                      <a class="footer__menu-item" href="">Русская баня</a>
-                      <a class="footer__menu-item" href="">Достопримечательности</a>
-                      <a class="footer__menu-item" href="">Контакты</a>
-                  </nav>
-                  <div class="footer__info">
-                    <div class="footer-icon">
-                      <img src="img/icon.png" alt="">
-                    </div>
-                    <div class="footer-contacts">
-                      <a class="footer-phone">8 (0765) 76 76 67</a>
-                      <div class="footer-addres">Россия, Крым, г. Балаклава “Гостевой дом с орлами”</div>
-                    </div>
-                  </div>
-        </div>
-        <hr class="footer__line">
-        <p class="copyright about__copyright">© www.rus-sauna.com<br>Стиль, оформление, дизайн и содержание являются объектами авторского права и охраняются законом. Перепечатка и иное их использование без письменного разрешения не допускаются и ведут за собой ответственность.</p>
-        <!-- /.header-block -->
-      </div>
-      <!-- /.container -->
-</footer>
-<!-- /.footer -->
 </body>
 </html>
