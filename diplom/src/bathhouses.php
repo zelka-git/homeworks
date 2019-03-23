@@ -80,34 +80,50 @@
 <section class="bath-slider">
   <div class="container">
     <div class="bath-slider__block">
-          <div class="bath-slider__for slider-for5">
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-main.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-2.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-3.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-4.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-5.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main"><img src="img/page_bathhouse/slider-6.jpg" alt="" graggable="false"></div>
-
+          <div class="bath-slider__main slider-for5">
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-main.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-2.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-3.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-4.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-5.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-6.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-main.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-2.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-3.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-4.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-5.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-6.jpg" alt="" graggable="false"></div>
           </div>
-          <div class="slider-nav__block">
-            <div class="bath-slider__nav slider-nav5">
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-2.jpg" alt=""></div>
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-3.jpg" alt=""></div>
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-4.jpg" alt=""></div>
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
-              <div class="bath-slider__small"><img class="" src="img/page_bathhouse/slider-6.jpg" alt=""></div>
+          <div class="bath-slider__small-block">
+            <div class="bath-slider__small slider-nav5">
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-2.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-3.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-4.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-6.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-2.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-3.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-4.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-6.jpg" alt=""></div>
+              
             </div>
-            <!-- <div class="arrows bath__arrows"> -->
+
+            <div class="arrows bath__arrows">
               <div class="arrows__left5">
                 <img src="img/page_room/left-arrow.png" alt="влево">
               </div>
               <div class="arrows__right5">
                 <img src="img/page_room/right-arrow.png" alt="вправо">
               </div>
-            <!-- </div> -->
-          
+            </div>
+
           </div>
+ 
+
+          
          
 
 
@@ -148,13 +164,22 @@
       </div>
       <!-- end block -->
     </div>
-    <form action="" class="bath-order__form">
+    <form action="" class="bath-order__form" id="bath-form">
       <div class="bath-order__form-block">
-        <input type="text" name="username" class="bath-order__input input" placeholder="Ваше имя..">
-        <input type="text" name="phone" class="bath-order__input input" placeholder="Ваш номер телефона">
-        <input type="text" name="email" class="bath-order__input" placeholder="Ваш e-mail..">
+        <div calss="bath-order__form-block__item">
+          <input type="text" name="username" class="bath-order__input input name" placeholder="Ваше имя..">
+        </div>
+        <div calss="bath-order__form-block__item">
+          <input type="text" name="phone" class="bath-order__input input phone" placeholder="Ваш номер телефона">
+        </div>
+        <div calss="bath-order__form-block__item">
+          <input type="text" name="email" class="bath-order__input input email" placeholder="Ваш e-mail..">
+        </div>
+        
+        
+        
       </div>
-      <input type="text" class="bath-order__mesages input" placeholder="Веше сообщение..">
+      <input type="text" class="bath-order__mesages input pen" placeholder="Веше сообщение..">
       <button class="bath-order__button">Арендовать баню!</button>
     </form>
   </div>
@@ -165,6 +190,9 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/slider_my.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/validate_my_form.js"></script>
 <?php include 'footer_pages.php' ?>
 
 

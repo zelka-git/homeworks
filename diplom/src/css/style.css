@@ -443,6 +443,26 @@ input {
   outline: none;
 }
 
+.name {
+  background: url("../img/form/people.png") no-repeat center left;
+  padding-left: 30px;
+}
+
+.phone {
+  background: url("../img/form/phone.png") no-repeat center left;
+  padding-left: 30px;
+}
+
+.email {
+  background: url("../img/form/mail.png") no-repeat center left;
+  padding-left: 30px;
+}
+
+.pen {
+  background: url("../img/form/pen.png") no-repeat center left;
+  padding-left: 30px;
+}
+
 .header {
   padding-top: 23px;
   padding-bottom: 23px;
@@ -1844,6 +1864,9 @@ input {
     width: 276px;
     left: -9px;
   }
+  .room__description-title:before {
+    display: none;
+  }
 }
 
 .add-services {
@@ -2123,6 +2146,17 @@ input {
   margin-top: 45px;
 }
 
+.bath-head__text:before {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  margin-bottom: 33px;
+}
+
 .bath-head__button {
   width: 184px;
   height: 51px;
@@ -2147,6 +2181,30 @@ input {
     width: 150px;
     height: 48px;
     font-size: 11px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bath-head__title {
+    font-size: 77px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bath-head__title {
+    font-size: 54px;
+  }
+  .bath-head__subtitle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 567px) {
+  .bath-head__title {
+    font-size: 30px;
+  }
+  .bath-head__subtitle {
+    font-size: 20px;
   }
 }
 
@@ -2205,6 +2263,13 @@ input {
   line-height: 21px;
 }
 
+@media (max-width: 768px) {
+  .bath-services__block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .bath-slider {
   padding-top: 71px;
   padding-bottom: 65px;
@@ -2215,30 +2280,62 @@ input {
   width: 100%;
 }
 
-.bath-slider__for {
+.bath-slider__main {
   margin-bottom: 25px;
 }
 
-.bath-slider__nav {
-  width: 96%;
+.bath-slider__main-item {
+  outline: none;
+}
+
+.bath-slider__small {
+  width: 1097px;
+  height: 108px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.arrows__left5 {
-  height: 25px;
-  width: 6px;
-  position: absolute;
-  top: 0;
-  left: 0;
+.bath-slider__small-block {
+  position: relative;
 }
 
-.arrows__right5 {
-  height: 25px;
-  width: 6px;
+.bath-slider__small-item {
+  outline: none;
+}
+
+.bath-slider__small-item img {
+  margin: 0 auto;
+}
+
+.bath__arrows {
+  width: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
+  left: 5;
+  top: 42;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .bath-slider__small {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bath-slider__small {
+    width: 480px;
+  }
+}
+
+@media (max-width: 568px) {
+  .bath-slider__small {
+    width: 300px;
+  }
 }
 
 .bath-description {
@@ -2343,6 +2440,19 @@ input {
   margin-bottom: 12px;
 }
 
+.bath-order__form-block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .bath-order__input {
   width: 319px;
   height: 53px;
@@ -2378,6 +2488,48 @@ input {
     width: 150px;
     height: 48px;
     font-size: 11px;
+  }
+}
+
+input.error {
+  margin-bottom: 10px;
+  border: 1px solid red;
+}
+
+@media (max-width: 1200px) {
+  .bath-order {
+    background-size: cover;
+  }
+  .bath-order__title {
+    font-size: 40px;
+  }
+  .bath-order__form-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bath-order__input {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bath-order__title {
+    font-size: 30px;
+  }
+  .bath-order__block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 567px) {
+  .bath-order__title {
+    line-height: 40px;
+  }
+  .bath-order__input {
+    width: 98%;
   }
 }
 
