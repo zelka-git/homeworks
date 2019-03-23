@@ -196,9 +196,12 @@
 <footer class="footer">
     <div class="container">
         <div class="footer-block">
-          <div class="footer__image">
-            <img src="img/footer-logo.png" alt="">
-          </div>
+            <a href="index.php">
+                <div class="footer__image">
+                    <img src="img/footer-logo.png" alt="">
+                </div>
+            </a>
+
                   <nav class="footer__menu">
                       <a class="footer__menu-item" href="about.php">О нас</a>
                       <a class="footer__menu-item" href="rooms.php">Наши номера</a>

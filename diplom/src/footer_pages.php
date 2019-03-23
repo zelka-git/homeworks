@@ -1,9 +1,12 @@
 <footer class="footer footer-about">
     <div class="container">
         <div class="footer-block footer-about__block">
+        <a href="index.php">
           <div class="footer__image">
-            <img src="img/footer-logo.png" alt="">
+              <img src="img/footer-logo.png" alt="">
           </div>
+        </a>
+
                   <nav class="footer__menu footer-about__menu">
                       <a class="footer__menu-item" href="index.php">Главная</a>
                       <a class="footer__menu-item" href="about.php">О нас</a>

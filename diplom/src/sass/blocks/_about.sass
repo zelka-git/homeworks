@@ -62,8 +62,11 @@
     // background-color: #f7f9f9
     &__block
       margin-bottom: 15px
+    &__menu
+      margin-right: 129px
   &__info
-    display: inline-block
+    display: flex 
+    justify-content: space-between
     // position: absolute
     // top: -17px
     // right: 0
@@ -71,7 +74,7 @@
     display: inline-block
   &-contacts
     max-width: 160px
-    display: inline-block
+    padding-top: 10px
     +roboto
     color: #fff
 
@@ -79,11 +82,13 @@
     +roboto-thin
     font-size: 11px
     margin-top: 7px
+    padding-left: 10px
       // font-weight: 100
   &-phone 
     +roboto
     font-size: 19px
     line-height: 23px
+    padding-left: 10px
       // margin-bottom: 5px
 
 .about__copyright
@@ -93,10 +98,15 @@
   .header
     &__info
       display: none
+    &-about 
+      &__item
+        padding-left: 10px
+        padding-right: 10px  
   .footer
     &-about
       &__menu
         display: none
+
 @media (max-width: 567px)
   .footer
     &-icon 

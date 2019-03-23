@@ -1,24 +1,25 @@
 
 .rooms
-  
+  border-top: 5px solid rgba(223, 223, 223, 0.5)
+  margin-top: 12px
   &-block 
     display: flex
     justify-content: flex-start
     margin-bottom: 55px
   &__arrows
     position: absolute
-    width: 445px
-    top: 320px
+    width: 442px
+    top: 35%
     // bottom: 23px
-    left: 8px
+    left: 7px
     display: flex
     justify-content: space-between
   &-title
-    margin-top: 57px
+    margin-top: 40px
     +services__title 
   &-images 
     max-width: 458px
-    position: relative
+
     margin-right: 32px
     &__main
       margin-bottom: 10px
@@ -27,24 +28,35 @@
       height: 80px
       margin-left: auto
       margin-right: auto
+      &-block 
+        position: relative
+
 
 .room
   &__description
-    &-line
-      width: 40px
-      height: 2px
-      color: #cccccc
-      margin-right: auto 
-      margin-left: 0
-      margin-top: 14px
+    // &-line
+    //   width: 40px
+    //   height: 2px
+    //   color: #cccccc
+    //   margin-right: auto 
+    //   margin-left: 0
+    //   margin-top: 14px
     &-title 
       color: $button-color
       +roboto;
       font-weight: 700
       font-size: 19px
       line-height: 24px
-      margin-top: 9px
+      margin-top: 12px
       margin-bottom: 0
+      &:before
+        display: block
+        content: ''
+        width: 40px
+        height: 2px
+        background-color: #cccccc
+        // margin-top: 14px
+        margin-bottom: 12px
     &-text 
       margin-top: 9px
       color: #383838
@@ -89,29 +101,33 @@
     &-images
       width: 95%
       &__slider
-        width: 260px
-
-
-        .rooms
+        width: 100%
+        &-block 
+          width: 260px
+          margin-left: auto
+          margin-right: auto
     &-block 
     &__arrows
-      position: absolute
+      // position: absolute
       width: 276px
-      top: 200px
-      // bottom: 23px
-      left: 0px
-      display: flex
-      justify-content: space-between
+      left: -9px
+    //   top: 50%
+    //   // bottom: 23px
+    //   // left: 0px
+    //   display: flex
+    //   justify-content: space-between
+      
 
 .add-services
   background-color: #f7f9f9
   padding-bottom: 40px
-  padding-top: 55px
+  padding-top: 53px
   padding-bottom: 90px
   border-bottom: 5px solid rgba(223, 223, 223, 0.5)
-  margin-bottom: 20px
+  margin-bottom: 16px
   &__title
     +services__title 
+    margin-bottom: 0
   &__blocks 
     display: flex
     justify-content: space-between
@@ -120,9 +136,10 @@
     max-width: 360px
     background-color: #fff
     border-bottom: 3px solid #eeeeee
-    padding-bottom: 60px
+    // padding-bottom: 55px
+    height: 348px
     position: relative
-    margin-top: 34px
+    margin-top: 33px
     &:hover
       cursor: pointer
       .add-services__block-top
@@ -132,16 +149,25 @@
     &-image 
       img
         height: 100%
-    &-line
-      width: 40px
-      height: 2px
-      color: #cccccc
-      margin-left: 23px
-      margin-right: auto
-      margin-top: 24px
-      margin-bottom: 25px
+    // &-line
+    //   width: 40px
+    //   height: 2px
+    //   color: #cccccc
+    //   margin-left: 23px
+    //   margin-right: auto
+    //   margin-top: 24px
+    //   margin-bottom: 25px
     &-text 
       margin-top: 0
+      &:before
+        display: block
+        content: ''
+        width: 40px
+        height: 2px
+        background-color: #cccccc
+        margin-top: 21px
+        margin-bottom: 19px
+
       
       color: #383838
       +roboto
@@ -161,6 +187,7 @@
       background-color: rgba(32, 32, 32, 0.7)
       display: flex
       align-items: center
+      justify-content: center
       &__text 
         +roboto-bold
         color: white 

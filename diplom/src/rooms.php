@@ -23,26 +23,31 @@
             <div class="rooms-images__main-item"><img src="img/page_room/room1-main.jpg" alt="" graggable="false"></div>
 
           </div>
-          <div class="rooms-images__slider slider-nav">
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-3-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-3-small.jpg" alt=""></div>
-          </div>
-          <div class="arrows rooms__arrows">
-            <div class="arrows__left">
-              <img src="img/page_room/left-arrow.png" alt="">
+            <div class="rooms-images__slider-block">
+              <div class="rooms-images__slider slider-nav">
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-1-small.jpg" alt=""></div>
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-2-small.jpg" alt=""></div>
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-3-small.jpg" alt=""></div>
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-1-small.jpg" alt=""></div>
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-2-small.jpg" alt=""></div>
+                <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room1-3-small.jpg" alt=""></div>
+              </div>
+              <div class="arrows rooms__arrows">
+                <div class="arrows__left">
+                  <img src="img/page_room/left-arrow.png" alt="">
+                </div>
+                <div class="arrows__right">
+                  <img src="img/page_room/right-arrow.png" alt="">
+                </div>
+              </div>
             </div>
-            <div class="arrows__right">
-              <img src="img/page_room/right-arrow.png" alt="">
-            </div>
-          </div>
+
+
+
         </div>
 
         <div class="rooms-description">
-          <hr class="room__description-line">
+          <!-- <hr class="room__description-line"> -->
           <h4 class="room__description-title">2-х комнатный четырёхместный номер.</h4>
           <p class="room__description-text">2-х комнатный улучшенный четырёхместный номер с гостиной, кухней, большой террасой и отдельным входом, с видом на Генуэзскую крепость. Лучше всего подойдёт для семьи с детьми или компании. Возможно дополнительное место. (оговаривается).</p>
           <ul class="room__description-cost">
@@ -67,26 +72,30 @@
             <div class="rooms-images__main-item"><img src="img/page_room/room1-main.jpg" alt="" graggable="false"></div>
 
           </div>
-          <div class="rooms-images__slider slider-nav1">
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-3-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-3-small.jpg" alt=""></div>
-          </div>
-          <div class="arrows rooms__arrows">
-            <div class="arrows__left1">
-              <img src="img/page_room/left-arrow.png" alt="">
+          <div class="rooms-images__slider-block">
+            <div class="rooms-images__slider slider-nav1">
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-3-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room2-3-small.jpg" alt=""></div>
             </div>
-            <div class="arrows__right1">
-              <img src="img/page_room/right-arrow.png" alt="">
+
+            <div class="arrows rooms__arrows">
+              <div class="arrows__left1">
+                <img src="img/page_room/left-arrow.png" alt="">
+              </div>
+              <div class="arrows__right1">
+                <img src="img/page_room/right-arrow.png" alt="">
+              </div>
             </div>
           </div>
+
         </div>
 
         <div class="rooms-description">
-          <hr class="room__description-line">
+          <!-- <hr class="room__description-line"> -->
           <h4 class="room__description-title">2-х комнатный улучшенный четырёхместный номер.</h4>
           <p class="room__description-text">2-х комнатный улучшенный номер с холом, большой терассой, балконом и отдельным входом, с видом на Генуэзскую крепость. Лучше всего подойдёт для семьи с детьми или компании. Возможно дополнительное место. (оговаривается). Предоставляется летняя кухня.</p>
           <ul class="room__description-cost">
@@ -111,26 +120,30 @@
             <div class="rooms-images__main-item"><img src="img/page_room/room1-main.jpg" alt="" graggable="false"></div>
 
           </div>
-          <div class="rooms-images__slider slider-nav2">
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-3-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-3-small.jpg" alt=""></div>
-          </div>
-          <div class="arrows rooms__arrows">
-            <div class="arrows__left2">
-              <img src="img/page_room/left-arrow.png" alt="">
+          <div class="rooms-images__slider-block">
+            <div class="rooms-images__slider slider-nav2">
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-3-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room3-3-small.jpg" alt=""></div>
             </div>
-            <div class="arrows__right2">
-              <img src="img/page_room/right-arrow.png" alt="">
+
+            <div class="arrows rooms__arrows">
+              <div class="arrows__left2">
+                <img src="img/page_room/left-arrow.png" alt="">
+              </div>
+              <div class="arrows__right2">
+                <img src="img/page_room/right-arrow.png" alt="">
+              </div>
             </div>
           </div>
+
         </div>
 
         <div class="rooms-description">
-          <hr class="room__description-line">
+          <!-- <hr class="room__description-line"> -->
           <h4 class="room__description-title">2-х местные номера.</h4>
           <p class="room__description-text">Двухместные номера с личным санузлом. С прекрасным видом на горы. Возможно дополнительное место (оговаривается). Предоставляется летняя кухня.</p>
           <ul class="room__description-cost">
@@ -155,26 +168,29 @@
             <div class="rooms-images__main-item"><img src="img/page_room/room1-main.jpg" alt="" graggable="false"></div>
 
           </div>
-          <div class="rooms-images__slider slider-nav3">
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-3-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-1-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-2-small.jpg" alt=""></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-3-small.jpg" alt=""></div>
-          </div>
-          <div class="arrows rooms__arrows">
-            <div class="arrows__left3">
-              <img src="img/page_room/left-arrow.png" alt="">
+          <div class="rooms-images__slider-block">
+            <div class="rooms-images__slider slider-nav3">
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-3-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-1-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-2-small.jpg" alt=""></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room4-3-small.jpg" alt=""></div>
             </div>
-            <div class="arrows__right3">
-              <img src="img/page_room/right-arrow.png" alt="">
+  
+            <div class="arrows rooms__arrows">
+              <div class="arrows__left3">
+                <img src="img/page_room/left-arrow.png" alt="">
+              </div>
+              <div class="arrows__right3">
+                <img src="img/page_room/right-arrow.png" alt="">
+              </div>
             </div>
           </div>
         </div>
 
         <div class="rooms-description">
-          <hr class="room__description-line">
+          <!-- <hr class="room__description-line"> -->
           <h4 class="room__description-title">2-х местные номера эконом класса.</h4>
           <p class="room__description-text">Двухместные номера эконом класса с общим санузлом. Предоставляется летняя кухня.</p>
           <ul class="room__description-cost">
@@ -198,30 +214,31 @@
             <div class="rooms-images__main-item"><img src="img/page_room/room1-main.jpg" alt="" graggable="false"></div>
 
           </div>
-          <div class="rooms-images__slider slider-nav4">
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-1-small.jpg" alt="" graggable="false"></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-2-small.jpg" alt="" graggable="false"></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-3-small.jpg" alt="" graggable="false"></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-1-small.jpg" alt="" graggable="false"></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-2-small.jpg" alt="" graggable="false"></div>
-            <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-3-small.jpg" alt="" graggable="false"></div>
-          </div>
-
-          <div class="arrows rooms__arrows">
-            <div class="arrows__left4">
-              <img src="img/page_room/left-arrow.png" alt="">
+          <div class="rooms-images__slider-block">
+            <div class="rooms-images__slider slider-nav4">
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-1-small.jpg" alt="" graggable="false"></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-2-small.jpg" alt="" graggable="false"></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-3-small.jpg" alt="" graggable="false"></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-1-small.jpg" alt="" graggable="false"></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-2-small.jpg" alt="" graggable="false"></div>
+              <div class="rooms-images__slider-item"><img class="rooms-images__slider-image" src="img/page_room/room5-3-small.jpg" alt="" graggable="false"></div>
             </div>
-            <div class="arrows__right4">
-              <img src="img/page_room/right-arrow.png" alt="">
+
+            <div class="arrows rooms__arrows">
+              <div class="arrows__left4">
+                <img src="img/page_room/left-arrow.png" alt="">
+              </div>
+              <div class="arrows__right4">
+                <img src="img/page_room/right-arrow.png" alt="">
+              </div>
             </div>
           </div>
-
 
 
         </div>
 
         <div class="rooms-description">
-          <hr class="room__description-line">
+          <!-- <hr class="room__description-line"> -->
           <h4 class="room__description-title">3-х и 4-х местные номера эконом класса.</h4>
           <p class="room__description-text">3-х и 4-х местные номера эконом класса с общим санузлом, кухней, с большим балконом, прекрасным видом на Генуэзскую крепость.</p>
           <ul class="room__description-cost">
@@ -251,7 +268,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-1.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Трансфер</span>
         </div>
           
@@ -267,7 +284,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-2.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Стирка</span>
         </div>
           
@@ -283,7 +300,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-3.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Мангал</span>
         </div>
           
@@ -299,7 +316,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-4.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Баня</span>
         </div>
           
@@ -315,7 +332,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-5.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Доставка продуктов и товаров по предварительной заявке</span>
         </div>
           
@@ -331,7 +348,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-6.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Массаж</span>
         </div>
           
@@ -347,7 +364,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-7.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Морские прогулки, рыбалка</span>
         </div>
           
@@ -363,7 +380,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-8.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Фрукты, овощи с личного сада. Домашние молочные продукты</span>
         </div>
           
@@ -379,7 +396,7 @@
           <div class="add-services__block-image">
             <img src="img/page_room/add-services-9.jpg" alt="">
           </div>
-          <hr class="add-services__block-line">
+          <!-- <hr class="add-services__block-line"> -->
           <span class="add-services__block-text">Питание</span>
         </div>
           
