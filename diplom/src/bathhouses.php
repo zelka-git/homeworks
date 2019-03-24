@@ -14,7 +14,7 @@
     <h2 class="bath-head__title">баня в балаклаве</h2>
    <span class="bath-head__subtitle">Отдых душой и телом</span>
     <p class="bath-head__text">Русская баня давно завоевала мировое признание. Миллионы людей постоянно прибегают к этому простому и надежному способу поддерживать здоровье, красоту, жизненный тонус и хорошее настроение. </p>
-    <button class="bath-head__button button">Арендовать баню</button>
+    <button class="bath-head__button button" id="button">Арендовать баню</button>
   </div>
 </section>
 <section class="bath-services">
@@ -164,7 +164,7 @@
       </div>
       <!-- end block -->
     </div>
-    <form action="" class="bath-order__form" id="bath-form">
+    <form action="mail.php" metod="POST" class="bath-order__form" id="bath-form">
       <div class="bath-order__form-block">
         <div calss="bath-order__form-block__item">
           <input type="text" name="username" class="bath-order__input input name" placeholder="Ваше имя..">
@@ -176,16 +176,35 @@
           <input type="text" name="email" class="bath-order__input input email" placeholder="Ваш e-mail..">
         </div>
         
-        
-        
       </div>
-      <input type="text" class="bath-order__mesages input pen" placeholder="Веше сообщение..">
-      <button class="bath-order__button">Арендовать баню!</button>
+      <input type="text" name="message" class="bath-order__mesages input pen" placeholder="Веше сообщение..">
+      <button type="submit" class="bath-order__button button">Арендовать баню!</button>
     </form>
   </div>
 </section>
 
-
+<div class="modal" id="modal">
+   <div class="modal-block">
+   <h3 class="modal__form-title">Арендовать баню прямо сейчас</h3>
+    <form action="mail.php" metod="POST" class="modal__form" id="modal-form">
+      <div class="modal__form-block">
+        <div calss="modal__form-block__item">
+          <input type="text" name="username" class="modal__input input name" placeholder="Ваше имя..">
+        </div>
+        <div calss="modal__form-block__item">
+          <input type="text" name="phone" class="modal__input input phone" placeholder="Ваш номер телефона">
+        </div>
+        <div calss="modal__form-block__item">
+          <input type="text" name="email" class="modal__input input email" placeholder="Ваш e-mail..">
+        </div>
+        
+      </div>
+      <input type="text" name="message" class="modal__mesages input pen" placeholder="Веше сообщение..">
+      <button type="submit" class="modal__button button">Арендовать баню!</button>
+    </form>
+    <button class="modal__close" id="close">&times;</button>
+   </div>
+</div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/slick.min.js"></script>
@@ -193,7 +212,11 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/validate_my_form.js"></script>
+<script src="js/modal.js"></script>
+
+
 <?php include 'footer_pages.php' ?>
+
 
 
 </body>

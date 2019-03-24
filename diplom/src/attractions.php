@@ -55,22 +55,22 @@
                 <span class="attractions-block__text">Мыс Айя, Балаклава	</span>
             </div>
 
-            <div class="attractions-block__item attractions-page-block__item">
+
+        </div>
+        <!-- /.attractions__block -->
+        <div class="attractions-page-block__item block">
                 <div class="attractions-block__image attractions-page-block__image">
                     <img src="img/page_attractions/image-7.jpg" alt="">
                 </div>
                 <span class="attractions-block__text">Винзавод Золотая балка, Балаклава</span>
             </div>
 
-            <div class="attractions-block__item attractions-page-block__item">
+            <div class="attractions-page-block__item block">
                 <div class="attractions-block__image attractions-page-block__image">
                     <img src="img/page_attractions/image-8.jpg" alt="">
                 </div>	
                 <span class="attractions-block__text">Форт Северная Балаклава, Балаклава </span>
             </div>
-        </div>
-        <!-- /.attractions__block -->
-
     </div>
     <!-- /.container -->
 </section>

@@ -1,7 +1,8 @@
 .contacts
   padding-top: 41px
-  border-bottom: 5px solid rgba(223, 223, 223, 0.5)
+  border-top: 5px solid rgba(223, 223, 223, 0.5)
   margin-top: 16px
+  margin-bottom: 50px
   &__title 
     color: #383838
     +roboto
@@ -14,15 +15,66 @@
     font-size: 16px
     font-weight: 300
     line-height: 25px
+.block-map
+  position: relative
+  margin-bottom: 70px
+.map
+  margin: auto
+.card
+  padding-top: 31px
+  max-width: 458px
+  background: $text-color-hover
+  position: absolute
+  top: 0
+  &-text 
+    padding-bottom: 18px
+  &-image
+    display: flex
+  &__title
+    display: inline-block
+    max-width: 210px
+    color: #ffffff
+    +roboto
+    font-size: 16px
+    line-height: 23px
+    margin-left: 33px
+  &__info 
+    list-style-type: none
+    color: #ffffff
+    +roboto
+    font-size: 16px
+    line-height: 23px
+    a
+      text-decoration: none
+      color: #ffffff
+      +roboto
+      font-size: 16px
+      line-height: 23px
+    &-item
+      display: flex
+      flex-direction: row 
+      align-items: center
+      img 
+        margin-right: 9px
+
+
 
 .feedback
+  border-bottom:  5px solid rgba(223, 223, 223, 0.5)
+  margin-bottom: 19px
+  &-block
+    display: flex
+    flex-wrap: wrap
+
   &-mail
+    margin-right: 30px
     &__title
       color: #333333
       +roboto
       font-size: 28px
       font-weight: 400
       line-height: 17px
+    
     &__form 
       width: 848px
       &-contact 
@@ -30,17 +82,30 @@
         justify-content: space-between
         margin-bottom: 15px
       &-date 
-        width: 417px
+        width: 420px
         height: 53px
         border: 1px solid #ededed
-        background-color: #ffffff
-        background-color: #e8d8b6
+        // background-color: #ffffff
+        // background-color: #e8d8b6
       &-message 
         width: 100%
         height: 149px
         border: 1px solid #ededed
-        background-color: #ffffff
-        background-color: #e8d8b6
+        margin-bottom: 20px
+        // background-color: #ffffff
+        // background-color: #e8d8b6
+      &-button 
+        +button-btn
+        margin-top: 15px
+        margin-bottom: 20px
+  &-form 
+    &__input 
+      display: flex
+      flex-direction: column
+      align-items: center
+
+
+
   &-social 
     &__title 
       color: #333333
@@ -48,22 +113,68 @@
       font-size: 28px
       font-weight: 400
       line-height: 17px
-      
-  
+    &__block
+      display: flex
+      flex-direction: column
+
+
+
+.facebook-bg 
+  background-color: #3b5a9b
+  width: 44px
+  height: 4px
+
+.instagram-bg
+  background-color: #dc4a38
+  width: 44px
+  height: 44px
+
+.vk-bg
+  background-color: #4c75a3
 .social
-  display:inline-block
-  width: 41px
+  // display:inline-block
   height: 41px
+  width: 232px
   margin-right: 10px
   color: #fff
   text-align: center
   line-height: 41px
+  text-decoration: none
+  margin-bottom: 3px
+  display: flex
+  justify-content: flex-start
+  align-items: center 
+  &-log 
+    width: 41px
+    border-right: 1px solid white
+  &-text 
+    color: #ffffff
+    +roboto
+    font-size: 13px
+    font-weight: 500
+    line-height: 20px
+    text-transform: uppercase
+    width: 190px
+    padding-left: 15px
+    text-align-last: left
 
-.facebook-bg 
-  background-color: #3a5898
-.instagram-bg
-  background-color: #13578a
-.vk-bg
-  background-color: #56acef
+@media (max-width: 1200px)
+  .feedback
+    &-mail 
+      &__form 
+        width: 98vw
+        &-date
+          width: 47vw
+
+@media (max-width: 568px)
+  .feedback
+    &-mail
+      &__form
+        &-contact
+          flex-direction: column
+        &-date 
+          width: 98vw
+          margin-bottom: 15px
+
 
 

@@ -29,7 +29,7 @@
                                     <a class="header__menu-item" href="rooms.php">Наши номера</a>
                                     <a class="header__menu-item" href="bathhouses.php">Русская баня</a>
                                     <a class="header__menu-item" href="attractions.php">Достопримечательности</a>
-                                    <a class="header__menu-item" href="cantacts.php">Контакты</a>
+                                    <a class="header__menu-item" href="contacts.php">Контакты</a>
                                 </nav>
                                 <!-- /.header__menu -->
                             
@@ -217,5 +217,8 @@
       <!-- /.container -->
 </footer>
 <!-- /.footer -->
+
+
+
 </body>
 </html>

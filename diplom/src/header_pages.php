@@ -31,7 +31,7 @@
             <img src="img/icon.png" alt="">
           </div>
           <div class="header__info-contacts">
-            <a class="header__info-phone">8 (0765) 76 76 67</a>
+            <a class="header__info-phone" href="tel:80765767667">8 (0765) 76 76 67</a>
             <div class="header__info-addres">Россия, Крым, г. Балаклава “Гостевой дом с орлами”</div>
           </div>
         </div>
