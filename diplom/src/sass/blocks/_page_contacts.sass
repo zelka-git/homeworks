@@ -15,19 +15,20 @@
     font-size: 16px
     font-weight: 300
     line-height: 25px
+    text-align: justify
 .block-map
   position: relative
-  margin-bottom: 70px
+  margin-bottom: 44px
 .map
   margin: auto
 .card
-  padding-top: 31px
+  padding-top: 24px
   max-width: 458px
   background: $text-color-hover
   position: absolute
   top: 0
   &-text 
-    padding-bottom: 18px
+    padding-bottom: 11px
   &-image
     display: flex
   &__title
@@ -44,6 +45,7 @@
     +roboto
     font-size: 16px
     line-height: 23px
+    margin-top: 12px
     a
       text-decoration: none
       color: #ffffff
@@ -54,8 +56,13 @@
       display: flex
       flex-direction: row 
       align-items: center
+      margin-bottom: 3px
       img 
         margin-right: 9px
+
+@media (max-width: 1200px)
+  .card
+    position: relative
 
 
 
@@ -65,7 +72,6 @@
   &-block
     display: flex
     flex-wrap: wrap
-
   &-mail
     margin-right: 30px
     &__title
@@ -74,7 +80,6 @@
       font-size: 28px
       font-weight: 400
       line-height: 17px
-    
     &__form 
       width: 848px
       &-contact 
@@ -146,7 +151,7 @@
   align-items: center 
   &-log 
     width: 41px
-    border-right: 1px solid white
+    
   &-text 
     color: #ffffff
     +roboto
@@ -157,23 +162,35 @@
     width: 190px
     padding-left: 15px
     text-align-last: left
+    height: 100%
+    padding-top: 11px  
+    border-left: 1px solid white
 
 @media (max-width: 1200px)
   .feedback
     &-mail 
       &__form 
-        width: 98vw
+        width: 760px
         &-date
-          width: 47vw
+          width: 375px
+@media (max-width: 769px)
+  .feedback
+    &-mail 
+      &__form 
+        width: 86vw
+        &-date
+          width: 42vw
+
 
 @media (max-width: 568px)
   .feedback
     &-mail
       &__form
+        width: 85vw
         &-contact
           flex-direction: column
         &-date 
-          width: 98vw
+          width: 85vw
           margin-bottom: 15px
 
 

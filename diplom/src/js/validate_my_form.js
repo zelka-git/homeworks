@@ -3,32 +3,32 @@
   $('#bath-form').validate({
     errorElement: "div",
     rules: {
-      username: {
+      username5: {
         required: true,
         minlength: 2,
         maxlength: 15
       },
-      email:{
+      email5:{
         required: true,
         email: true
       },
-      phone: {
+      phone5: {
         required: true,
         minlength: 10
         // maxlength: 10
       }
     },
     messages:{
-      username: {
+      username5: {
         required: "Укажите имя",
         minlength: jQuery.validator.format("Осталось символов: {0}"),
         maxlength: jQuery.validator.format("Не больше {0} символов")
       },
-      email:{
+      email5:{
         required: "Нам нужен ваш email",
         email: "Формат: name@domain.com"
       }, 
-      phone:{
+      phone5:{
         required: "Укажите телефон",
         minlength: "Укажите телефон"
       }

@@ -6,8 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Баня</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(52948537, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script>
 </head>
 <body>
+<noscript><div><img src="https://mc.yandex.ru/watch/52948537" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 <?php include 'header_pages.php' ?>
 <section class="bath-head">
   <div class="container">
@@ -82,31 +85,31 @@
     <div class="bath-slider__block">
           <div class="bath-slider__main slider-for5">
             <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-main.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-2.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-3.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-4.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-5.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-6.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-1.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-2.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-5.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-4.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-3.jpg" alt="" graggable="false"></div>
             <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-main.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-2.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-3.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-4.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-5.jpg" alt="" graggable="false"></div>
-            <div class="bath-slider__main-item"><img src="img/page_bathhouse/slider-6.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-1.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-2.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-5.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-4.jpg" alt="" graggable="false"></div>
+            <div class="bath-slider__main-item"><img src="img/page_bathhouse/bath-3.jpg" alt="" graggable="false"></div>
           </div>
           <div class="bath-slider__small-block">
             <div class="bath-slider__small slider-nav5">
-              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-2.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-3.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-4.jpg" alt=""></div>
-              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-6.jpg" alt=""></div>
-              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-2.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-3.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-4.jpg" alt=""></div>
-              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-5.jpg" alt=""></div>
+              <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-1.jpg" alt=""></div>
               <div class="bath-slider__small-item"><img class="" src="img/page_bathhouse/slider-6.jpg" alt=""></div>
               
             </div>
@@ -164,20 +167,21 @@
       </div>
       <!-- end block -->
     </div>
-    <form action="mail.php" metod="POST" class="bath-order__form" id="bath-form">
+    <form action="mail.php" method="POST" class="bath-order__form" id="bath-form" onsubmit="ym(52948537, 'reachGoal', 'form_bathhouses'); return true;">
       <div class="bath-order__form-block">
         <div calss="bath-order__form-block__item">
-          <input type="text" name="username" class="bath-order__input input name" placeholder="Ваше имя..">
+          <input type="text" name="username5" class="bath-order__input input name" placeholder="Ваше имя..">
         </div>
         <div calss="bath-order__form-block__item">
-          <input type="text" name="phone" class="bath-order__input input phone" placeholder="Ваш номер телефона">
+          <input type="text" name="phone5" class="bath-order__input input phone" placeholder="Ваш номер телефона">
         </div>
         <div calss="bath-order__form-block__item">
-          <input type="text" name="email" class="bath-order__input input email" placeholder="Ваш e-mail..">
+          <input type="text" name="email5" class="bath-order__input input email" placeholder="Ваш e-mail..">
         </div>
         
       </div>
-      <input type="text" name="message" class="bath-order__mesages input pen" placeholder="Веше сообщение..">
+      <textarea name="message5" class="bath-order__mesages input pen" placeholder="Ваше сообщение.."></textarea>
+      <!-- <input type="text" name="message" class="bath-order__mesages input pen" placeholder="Веше сообщение.."> -->
       <button type="submit" class="bath-order__button button">Арендовать баню!</button>
     </form>
   </div>
@@ -200,7 +204,7 @@
         
       </div>
       <input type="text" name="message" class="modal__mesages input pen" placeholder="Веше сообщение..">
-      <button type="submit" class="modal__button button">Арендовать баню!</button>
+      <button type="submit" class="modal__button button" id="button">Арендовать баню!</button>
     </form>
     <button class="modal__close" id="close">&times;</button>
    </div>

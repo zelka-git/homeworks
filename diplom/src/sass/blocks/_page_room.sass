@@ -8,12 +8,13 @@
     margin-bottom: 55px
   &__arrows
     position: absolute
-    width: 442px
-    top: 35%
+    width: 450px
+    top: 28%
     // bottom: 23px
-    left: 7px
+    left: 1px
     display: flex
     justify-content: space-between
+    z-index: 1
   &-title
     margin-top: 40px
     +services__title 
@@ -28,8 +29,24 @@
       height: 80px
       margin-left: auto
       margin-right: auto
+      z-index: 2
       &-block 
         position: relative
+      &-item 
+        position: relative 
+        &:before
+          position: absolute
+          content: ''
+          display: block
+          top: 0
+          left: 0
+          height: 100%
+          width: 95%
+          background-color: rgba(#000, 0.4)
+.slick-current
+  &:before
+    background-color: rgba(#000, 0)
+
 
 
 .room
@@ -109,8 +126,8 @@
     &-block 
     &__arrows
       // position: absolute
-      width: 276px
-      left: -9px
+      width: 306px
+      left: -24px
     //   top: 50%
     //   // bottom: 23px
     //   // left: 0px

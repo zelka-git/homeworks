@@ -6,13 +6,14 @@
   height: 100%
   background-color: rgba(#000, 0.5)
   display: none
+  z-index: 5
   &_active
     display: flex
   &-block
     padding-bottom: 30px
     margin: auto 
     position: relative
-    max-width: 900px
+    width: 950px
     background: #f7f9f9
 
   &__form   
@@ -34,28 +35,44 @@
       flex-wrap: wrap 
       justify-content: space-between
       &__item 
-        width: 270px
+        // width: 270px
   &__mesages
     width: 100%
     margin-bottom: 20px 
     display: block
     height: 96px
+    border: none 
+    
   &__button 
     +button-btn
   &__input
     height: 53px
-    width: 270px
+    width: 293px
     margin-bottom: 12px
-    background: transparent
+    border: none
   &__close 
     position: absolute
-    top: 0
-    right: 0
+    top: -30px
+    right: -30px
+    height: 35px
+    width: 35px
+    border-radius: 50%
+    color: white 
+    font-size: 30px
+    font-weight: 700
+    text-align: center
+    background-color: rgba(#000, 0.5)
+    border: none
+    cursor: pointer
+    outline: none
+    
 
-@media (max-width: 868px)
+@media (max-width: 1035px)
   .modal
-    max-width: 600px
-    width: 100%
+    // max-width: 600px
+    // width: 100%
+    &-block
+      max-width: 600px
     &__form
       &-title
         font-size: 22px 
@@ -64,6 +81,28 @@
         &__item
     &__input 
       width: 100%
+
+@media (max-width: 675px)
+  .modal
+    // max-width: 600px
+    // width: 100%
+    &-block
+      max-width: 87%
+    &__form
+      &-title
+        font-size: 20px 
+    &__input 
+      width: 100%
+
+@media (max-width: 446px)
+  .modal
+    // max-width: 600px
+    // width: 100%
+    &-block
+      max-width: 90%
+    &__close 
+      top: -18px
+      right: -18px
 
 
 

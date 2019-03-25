@@ -6,56 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>БАЛАКЛАВА</title>
   <link rel="stylesheet" href="css/style.css">
-  
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(52948537, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> 
 </head>
 <body>
-            <header class="header">
-                    <div class="container">
-                      <div class="header-block">
-                        <div class="header__image">
-                          <img src="img/balaclava-logo.png" alt="">
-                        </div>
-                        <!-- /.header__image -->
-
-                        <div class="header__menu-wrap">
-                                <input type="checkbox" id="check-menu">
-                                <label class="check-menu__label" for="check-menu"></label>
-                                <div class="burger-line first"></div>
-                                <div class="burger-line second"></div>
-                                <div class="burger-line third"></div>
-                                <div class="burger-line fourth"></div>
-                                <nav class="header__menu">
-                                    <a class="header__menu-item" href="about.php">О нас</a>
-                                    <a class="header__menu-item" href="rooms.php">Наши номера</a>
-                                    <a class="header__menu-item" href="bathhouses.php">Русская баня</a>
-                                    <a class="header__menu-item" href="attractions.php">Достопримечательности</a>
-                                    <a class="header__menu-item" href="contacts.php">Контакты</a>
-                                </nav>
-                                <!-- /.header__menu -->
-                            
-                        </div>   
-  
-
-
-
-                      </div>
-                      <!-- /.header-block -->
-                    </div>
-                    <!-- /.container -->
-                  </header>
-                  <!-- /.header -->
-                  <section class="hero">
-                      <div class="container">
-                          <h1 class="hero__title">Balaclava</h1>
-                          <div class="hero__text">«Белый дом с орлами» – место для спокойного отдыха у моря, вдали от шумного города. Мы предлагаем Вам отдохнуть в самом сердце Балаклавы, невероятно 
-                            живописном месте – балке Кефало-вриси.</div>
-                          <!-- /.hero__text -->
-                          <button class="hero__button button">арендовать номер!</button>
-                          <!-- /.hero__button -->
-                      </div>
-                      <!-- /.container -->
-                  </section>
-                  <!-- /.hero -->
+<noscript><div><img src="https://mc.yandex.ru/watch/52948537" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+    <header class="header">
+        <div class="container">
+            <div class="header-block">
+                <div class="header__image">
+                    <img src="img/balaclava-logo.png" alt="">
+                </div>
+                <!-- /.header__image -->
+                <div class="header__menu-wrap">
+                    <input type="checkbox" id="check-menu">
+                    <label class="check-menu__label" for="check-menu"></label>
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
+                    <nav class="header__menu">
+                        <a class="header__menu-item" href="about.php">О нас</a>
+                        <a class="header__menu-item" href="rooms.php">Наши номера</a>
+                        <a class="header__menu-item" href="bathhouses.php">Русская баня</a>
+                        <a class="header__menu-item" href="attractions.php">Достопримечательности</a>
+                        <a class="header__menu-item" href="contacts.php">Контакты</a>
+                    </nav>
+                <!-- /.header__menu -->                  
+                </div>   
+            </div>
+            <!-- /.header-block -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <section class="hero">
+        <div class="container">
+            
+            <div class="hero-block">
+                <div class="hero__eagle">
+                    <img src="img/hero/Layer_7.png" alt="">
+                </div>
+                <h1 class="hero__title">Balaclava</h1>
+            </div>
+            
+            <div class="hero__text">«Белый дом с орлами» – место для спокойного отдыха у моря, вдали от шумного города. Мы предлагаем Вам отдохнуть в самом сердце Балаклавы, невероятно 
+            живописном месте – балке Кефало-вриси.</div>
+            <!-- /.hero__text -->
+            <button class="hero__button button bookaroom" id="button" onclick="ym(52948537, 'reachGoal', 'button-rooms'); return true;">арендовать номер!</button>
+            <!-- /.hero__button -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.hero -->
   
   <section class="welcome">
     <div class="container">
@@ -120,7 +123,7 @@
             <div class="room__description">
                 <h2 class="room__title">Номера на любой вкус!</h2>
                 <p class="room__text">Фирменный набор принадлежностей индивидуального пользования, комплект махровых полотенец и другие предметы первой необходимости предусмотрены для каждого нашего гостя, остановившегося у нас, чтобы провести отличный отдых в Балаклаве. Все номера гостиничного комплекса имеют отдельные выходы на территорию!</p>
-                <button class="room__button button">Показать номера!</button>
+                <button class="room__button button" id="page-rooms">Показать номера!</button>
             </div>
             
         </div>
@@ -136,7 +139,7 @@
             <div class="bathhouse__description">
                 <h2 class="bathhouse__title">Отдых в бане у нас!</h2>
                 <p class="bathhouse__text">Русская баня давно завоевала мировое признание. Миллио- ны людей постоянно прибегают к этому простому и надежному способу поддерживать здоровье, красоту, жизненный тонус и хорошее настроение. В X веке в Киево-Печерском монастыре монахи, узнав о пользе бани из древних книг, собранных в библиотеке, стали устраивать бани для лечебных целей, но на русский манер. </p>
-                <button class="bathhouse__button button">более подробно!</button>
+                <button class="bathhouse__button button" id="page-bath">более подробно!</button>
             </div>
     
             <div class="bathhouse__main">
@@ -186,7 +189,7 @@
             </div>
         </div>
         <!-- /.attractions__block -->
-        <button class="attractions__button button">больше статей!</button>
+        <button class="attractions__button button" id="page-attr">больше статей!</button>
         <!-- /.attractions__button button -->
     </div>
     <!-- /.container -->
@@ -201,7 +204,6 @@
                     <img src="img/footer-logo.png" alt="">
                 </div>
             </a>
-
                   <nav class="footer__menu">
                       <a class="footer__menu-item" href="about.php">О нас</a>
                       <a class="footer__menu-item" href="rooms.php">Наши номера</a>
@@ -218,6 +220,36 @@
 </footer>
 <!-- /.footer -->
 
+<!-- <div class="modal" id="modal">
+   <div class="modal-block">
+   <h3 class="modal__form-title">Арендовать номер прямо сейчас</h3>
+    <form method="POST" class="modal__form" id="modal-form">
+      <div class="modal__form-block">
+        <div class="modal__form-block__item">
+          <input type="text" name="username" class="modal__input input name" placeholder="Ваше имя..">
+        </div>
+        <div class="modal__form-block__item">
+          <input type="text" name="phone" class="modal__input input phone" placeholder="Ваш номер телефона">
+        </div>
+        <div class="modal__form-block__item">
+          <input type="text" name="email" class="modal__input input email" placeholder="Ваш e-mail..">
+        </div>    
+      </div>
+      <textarea name="message" class="modal__mesages input pen" placeholder="Ваше сообщение.."></textarea>
+      <button class="modal__button button">Арендовать номер!</button>
+    </form>
+    <button class="modal__close" id="close">&times;</button>
+   </div>
+</div> -->
+<?php include 'modal_room.php' ?>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slider_my.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/validate_my_form.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/buttons.js"></script>
 
 
 </body>

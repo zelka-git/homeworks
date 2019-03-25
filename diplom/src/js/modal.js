@@ -1,11 +1,17 @@
-var button = document.querySelector('#button');
+var button = document.querySelectorAll('#button');
 var modal = document.querySelector('#modal');
 var close = document.querySelector('#close')
 
-button.addEventListener('click', function(){
+var i;
+for (i = 0; i < button.length; i++) {
+  button[i].addEventListener('click', function(){
+    modal.classList.add('modal_active')
+  });
+}
+// button[this].addEventListener('click', function(){
 
-  modal.classList.add('modal_active')
-});
+//   modal.classList.add('modal_active')
+// });
 
 close.addEventListener('click', function(){
   modal.classList.remove('modal_active');

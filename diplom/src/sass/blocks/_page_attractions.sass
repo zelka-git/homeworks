@@ -5,14 +5,41 @@
   &__title
     margin-bottom: 31px
   &-block
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
     &__item
       margin-bottom: 32px
       background-color: #fff
+      height: 348px
+      flex-wrap: wrap
     &__image
       margin-bottom: 20px
 
 .block 
   display: inline-block
   margin-right: 26px
+  vertical-align: top
+
+@media (max-width: 1200px)
+  .two-block  
+    display: flex
+    justify-content: space-between
+  .block 
+    margin-right: 0
+    margin-left: 9px
+    margin-right: 9px
+
+
+@media (max-width: 768px)
+  .two-block 
+    flex-direction: column
+
+  .block 
+    margin-left: auto 
+    margin-right: auto
+
+
+
 
 

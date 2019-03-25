@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Наши комнаты</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <?php include 'header_pages.php' ?>
@@ -56,7 +57,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 5000р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button button">Забронировать!</button>
+          <button class="room__description-button button bookaroom" id='button'>Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -104,7 +105,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 5000р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button button">Забронировать!</button>
+          <button class="room__description-button button bookaroom" id="button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -152,7 +153,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 2500р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button button">Забронировать!</button>
+          <button class="room__description-button button bookaroom" id="button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -198,7 +199,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 1200р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button button">Забронировать!</button>
+          <button class="room__description-button button bookaroom" id="button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -246,7 +247,7 @@
             <li class="room__description-cost__item">с 20 июня до 15 сентября — 400р</li>
             <li class="room__description-cost__item"><span class="note">*</span> Все цены могут корректироваться.</li>  
           </ul>
-          <button class="room__description-button button">Забронировать!</button>
+          <button class="room__description-button button bookaroom" id="button">Забронировать!</button>
         </div>
       </div>
       <!-- /.rooms-block -->
@@ -412,10 +413,11 @@
     <!-- /.container -->
   </section>
   <!-- /.add-services -->
-  
+  <?php include 'modal_room.php' ?>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/slider_my.js"></script>
+  <script src="js/modal.js"></script>
   
 <?php include 'footer_pages.php' ?>
 </body>
